@@ -1,16 +1,251 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.2s ease-in-out;
+  /* border: 1px solid red; */
+}
+
+:root {
+  --mp-main: 30px;
+  --mp-secondary: 15px;
+  --mp-third: 7.5px;
+  --secondary-color: #8873ef;
+  --secondary-color-hover: #735cea;
+  --border-color: #d9d9d9;
+  --round-btn-color: #f6f6f6;
+}
+
+html {
+  font-size: 16px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 4rem;
+}
+
+h2 {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+p {
+  font-weight: 400;
+  opacity: 0.7;
+  font-size: 1.2rem;
+}
+
+.button {
+  padding: var(--mp-secondary) var(--mp-main);
+  border-radius: var(--mp-secondary);
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 1rem;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button img {
+  width: 25px;
+  margin-left: var(--mp-secondary);
+}
+
+.button:hover {
+  transform: translateY(-2px);
+}
+
+.buttonPrimary {
+  background-color: var(--secondary-color);
+  color: #fff;
+  border: 1px solid transparent;
+}
+
+.buttonSecondary {
+  background-color: #fff;
+  border: 1px solid var(--border-color);
+}
+
+.buttonRoundPrimary {
+  padding: 15px 23px;
+  border: 1px solid transparent;
+  color: white;
+  border-radius: 50% !important;
+  background-color: var(--secondary-color);
+}
+
+.buttonRoundSecondary {
+  padding: 15px 23px;
+  border: 1px solid var(--border-color);
+  border-radius: 50% !important;
+  background-color: var(--round-btn-color);
+}
+
+.buttonPrimary:hover,
+.buttonRoundPrimary:hover {
+  background-color: var(--secondary-color-hover);
+}
+
+.buttonPrimary:active,
+.buttonRoundPrimary:active {
+  background-color: var(--secondary-color);
+}
+
+.buttonSecondary:hover,
+.buttonRoundSecondary:hover {
+  border: 1px solid var(--secondary-color-hover);
+}
+
+.buttonSecondary:active,
+.buttonRoundSecondary:active {
+  border: 1px solid var(--secondary-color);
+}
+
+.boxShadow {
+  -webkit-box-shadow: 0px 0px 36px -18px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 36px -18px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 36px -18px rgba(0, 0, 0, 0.75);
+}
+
+.boxShadow:hover {
+  -webkit-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 0.75);
+}
+
+.subHeading {
+  position: relative;
+  padding-left: 48px;
+  color: var(--secondary-color);
+}
+
+.subHeading::before {
+  content: "";
+  position: absolute;
+  top: 15px;
+  left: 0;
+  width: 40px;
+  height: 2px;
+  background: var(--secondary-color);
+}
+
+/* ------------------- Main Section -------------- */
+.mainDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainDivChild {
+  width: 100%;
+  max-width: 2000px;
+  padding: 0px 150px;
+}
+
+/* ------------------- Home ---------------- */
+
+.home {
+  height: 100%;
+  width: 100%;
+  min-height: 96vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--mp-main);
+}
+
+.homeSubDiv1,
+.homeSubDiv2 {
+  width: 50%;
+}
+
+.homeSubDiv2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeSubDiv1MainSection {
+  width: 100%;
+  max-width: 500px;
+}
+
+.homeSubDiv1MainSection * {
+  margin: var(--mp-third) 0px;
+}
+
+.homeSubDiv1MainSection button {
+  margin-top: var(--mp-main);
+}
+
+.heroImg {
+  width: 100%;
+}
+
+/* ------------------- Media Query ---------------- */
+
+@media (max-width: 1536px) {
+  html {
+    font-size: 14px;
+  }
+
+  .mainDivChild {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 1280px) {
+  html {
+    font-size: 13px;
+  }
+
+  .mainDivChild {
+    padding: 0px 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 12px;
+  }
+
+  .mainDivChild {
+    padding: 0px 30px;
+  }
+
+  .home {
+    flex-direction: column;
+  }
+
+  .homeSubDiv1,
+  .homeSubDiv2 {
+    width: 100%;
+  }
+
+  .button img {
+    width: 18px;
+    margin-left: var(--mp-third);
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  .button {
+    padding: var(--mp-third) var(--mp-secondary);
+    border-radius: var(--mp-third);
+  }
+
+  .mainDivChild {
+    padding: 0px 15px;
+  }
 }
