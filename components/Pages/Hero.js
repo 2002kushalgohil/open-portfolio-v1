@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="homeSubDiv1">
           <div className="homeSubDiv1MainSection">
             <div className="subHeading">
-              <h2>Kushal Gohil</h2>
+              <h2>मेरा परिचय</h2>
             </div>
             <h1>Hello, my name's Kushal. I'm a Full Stack Developer.</h1>
             <p>

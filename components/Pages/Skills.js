@@ -11,7 +11,7 @@ export default function Skills() {
     },
     {
       imgSrc: "/skills/3 Tailwind Css.svg",
-      name: "Tailwind",
+      name: "Tailwind-CSS",
     },
     {
       imgSrc: "/skills/4 Ant Design.svg",
@@ -66,6 +66,9 @@ export default function Skills() {
     <Layout>
       <div className="skills">
         <div className="skillsSubDiv1">
+          <div className="subHeading">
+            <h2>कौशल</h2>
+          </div>
           <h1>Skills</h1>
           <p>
             Languages,Technologies and tools that I have learned and applied to

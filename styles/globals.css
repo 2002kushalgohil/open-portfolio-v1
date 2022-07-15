@@ -5,6 +5,8 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
   transition: all 0.2s ease-in-out;
+  list-style-type: none;
+  text-decoration: none;
   /* border: 1px solid red; */
 }
 
@@ -53,8 +55,12 @@ p {
   justify-content: center;
 }
 
-.button img {
+.buttonImg {
   width: 25px;
+  margin-left: var(--mp-secondary);
+}
+
+.home button img{
   margin-left: var(--mp-secondary);
 }
 
@@ -118,6 +124,22 @@ p {
   -webkit-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 36px -15px rgba(0, 0, 0, 0.75);
+}
+
+.inputBox {
+  width: 100%;
+  padding: var(--mp-secondary);
+  font-size: 1rem;
+  border: none;
+  border: 2px solid transparent;
+  border-radius: var(--mp-third);
+  background-color: var(--round-btn-color);
+  resize: none;
+}
+
+.inputBox:hover,
+.inputBox:active {
+  border: 2px solid var(--secondary-color);
 }
 
 .subHeading {
@@ -335,7 +357,9 @@ p {
   padding: 60px 0px;
 }
 
-.skillsSubDiv1,
+.skillsSubDiv1{
+  text-align: start;
+}
 .skillsSubDiv2 {
   text-align: center;
 }
@@ -460,9 +484,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  backdrop-filter: blur(3px) saturate(180%);
-  -webkit-backdrop-filter: blur(3px) saturate(180%);
-  background-color: rgba(255, 255, 255, 0.313);
+  backdrop-filter: blur(2px) ;
+  -webkit-backdrop-filter: blur(2px);
 }
 
 .swiperCardMain:hover > .swiperCardMainContent {
@@ -495,6 +518,78 @@ p {
 
 .swiperCardMainContent div:hover {
   background-color: #fff;
+}
+
+/* ------------------- Contact ---------------- */
+
+.contact {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 0px;
+}
+
+.contactMain {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mp-main);
+}
+
+.contactMainSub1,
+.contactMainSub2 {
+  width: 50%;
+}
+
+.contactMainSub1Main {
+  width: 100%;
+  max-width: 500px;
+}
+
+.contactIconsMainDiv {
+  margin-top: var(--mp-main);
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: var(--mp-secondary);
+}
+
+.contactIconsMainDiv a{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.contactIconsMainDiv img {
+  width: 35px;
+}
+
+.contactIconsMainDiv p{
+  margin-left: var(--mp-secondary);
+  color: black;
+}
+
+.contactMainSub2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.contactMainSub2 input,
+.contactMainSub2 textarea,
+.contactMainSub2 button {
+  margin-top: var(--mp-secondary);
+}
+
+.contactMainSub2 button {
+  align-self: flex-start;
 }
 
 /* ------------------- Media Query ---------------- */
@@ -537,7 +632,7 @@ p {
     width: 100%;
   }
 
-  .home .button img {
+  .buttonImg {
     width: 18px;
     margin-left: var(--mp-third);
   }
@@ -562,7 +657,7 @@ p {
   }
 
   .experience {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 60px;
   }
   .experienceSub2,
@@ -604,6 +699,22 @@ p {
   .projectSub1,
   .projectSub2 {
     width: 100%;
+  }
+
+  .contact {
+    padding: 30px 0px;
+  }
+
+  .contactMain {
+    flex-direction: column;
+  }
+
+  .contactMainSub1,
+  .contactMainSub2 {
+    width: 100%;
+  }
+  .contactIconsMainDiv img{
+    width: 30px;
   }
 }
 

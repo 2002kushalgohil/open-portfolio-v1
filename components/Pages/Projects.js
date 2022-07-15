@@ -62,9 +62,9 @@ export default function Projects() {
         <div className="projectSub1">
           <div className="projectSub1Main">
             <div className="subHeading">
-              <h2>Portfolio</h2>
+              <h2>मेरा काम</h2>
             </div>
-            <h1>Look at My Products.</h1>
+            <h1>My Project at a Glance</h1>
             <p>I will let the work I've done speak for me - "Corrine Brown"</p>
           </div>
           <img src="/website.png" />

@@ -1,3 +1,4 @@
+import Contact from "../components/Pages/Contact";
 import Experience from "../components/Pages/Experience";
 import Hero from "../components/Pages/Hero";
 import Projects from "../components/Pages/Projects";
@@ -24,6 +25,13 @@ export default function Home() {
         <Skills />
       </div>
       <Projects />
+      <div
+        style={{
+          backgroundColor: "var(--primary-color)",
+        }}
+      >
+        <Contact />
+      </div>
     </>
   );
 }

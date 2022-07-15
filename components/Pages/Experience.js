@@ -43,7 +43,7 @@ export default function Experience() {
                     <p>{data.company}</p>
                   </div>
                   <button className="button buttonRoundPrimary">
-                    <img src="/ArrowTopRight.svg" />
+                    <img src="/ArrowTopRight.svg" className="buttonImg" />
                   </button>
                 </div>
               </div>
@@ -53,7 +53,7 @@ export default function Experience() {
         <div className="experienceSub2">
           <div className="experienceSub2Main">
             <div className="subHeading">
-              <h2>Experience</h2>
+              <h2>अनुभव</h2>
             </div>
             <h1>Experience</h1>
             <p>

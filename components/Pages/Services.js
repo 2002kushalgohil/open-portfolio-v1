@@ -3,13 +3,13 @@ import Layout from "../layouts/Layout";
 export default function Services() {
   const services = [
     {
-      name: "Web UI/UX Design",
+      name: "Full Stack Web Development",
     },
     {
       name: "Website UI Development",
     },
     {
-      name: "Full Stack Web Development",
+      name: "Web UI/UX Design",
     },
   ];
   return (
@@ -18,7 +18,7 @@ export default function Services() {
         <div className="servicesSub1">
           <div className="servicesSub1Main">
             <div className="subHeading">
-              <h2>Service</h2>
+              <h2>मेरी सेवाएं</h2>
             </div>
             <h1>Services I Offer</h1>
             <p>
@@ -39,7 +39,7 @@ export default function Services() {
                 <div className="servicesCardFooter">
                   <p>Explore</p>
                   <button className="button buttonRoundPrimary">
-                    <img src="/ArrowTopRight.svg" />
+                    <img src="/ArrowTopRight.svg" className="buttonImg" />
                   </button>
                 </div>
               </div>
