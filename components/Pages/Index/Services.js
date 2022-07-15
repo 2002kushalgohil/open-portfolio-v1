@@ -1,17 +1,7 @@
-import Layout from "../layouts/Layout";
+import services from "../../../Data/services";
+import Layout from "../../layouts/Layout";
 
 export default function Services() {
-  const services = [
-    {
-      name: "Full Stack Web Development",
-    },
-    {
-      name: "Website UI Development",
-    },
-    {
-      name: "Web UI/UX Design",
-    },
-  ];
   return (
     <Layout>
       <div className="services">
@@ -27,7 +17,7 @@ export default function Services() {
               customers, and growing overall sales.
             </p>
           </div>
-          <img src="/service1.png" />
+          <img src="/service.png" />
         </div>
         <div className="servicesSub2">
           {services.map((data, index) => {
@@ -39,7 +29,7 @@ export default function Services() {
                 <div className="servicesCardFooter">
                   <p>Explore</p>
                   <button className="button buttonRoundPrimary">
-                    <img src="/ArrowTopRight.svg" className="buttonImg" />
+                    <img src="/icons/ArrowTopRight.svg" className="buttonImg" />
                   </button>
                 </div>
               </div>

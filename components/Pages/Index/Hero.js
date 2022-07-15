@@ -1,6 +1,6 @@
-import Layout from "../layouts/Layout";
+import Layout from "../../layouts/Layout";
 
-export default function Hero() {
+export default function Hero({ setIsContactModalVisible }) {
   return (
     <Layout>
       <div className="home">
@@ -14,8 +14,13 @@ export default function Hero() {
               A Full-Stack developer with Innovative ideas a team player and
               passionate about coding.
             </p>
-            <button className="button buttonPrimary">
-              Let's Talk <img src="/Message.svg" className="buttonImg" />
+            <button
+              className="button buttonPrimary"
+              onClick={() => {
+                setIsContactModalVisible(true);
+              }}
+            >
+              Let's Talk <img src="/icons/Message.svg" className="buttonImg" />
             </button>
           </div>
         </div>
