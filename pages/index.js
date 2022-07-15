@@ -25,7 +25,7 @@ export default function Home() {
           content="Kushal Gohil , Full Stack Developer, Kushal Gohil - Full Stack Developer"
         />
         <meta name="robots" content="index, follow" />
-        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta httpEquiv="Content-Type" content="text/html; charset=utf-8" />
         <meta name="language" content="English" />
         <meta name="author" content="Kushal Gohil" />
         <link

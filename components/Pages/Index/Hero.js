@@ -9,7 +9,7 @@ export default function Hero({ setIsContactModalVisible }) {
             <div className="subHeading">
               <h2>मेरा परिचय</h2>
             </div>
-            <h1>Hello, my name's Kushal. I'm a Full Stack Developer.</h1>
+            <h1>Hello, my name&apos;s Kushal. I&apos;m a Full Stack Developer.</h1>
             <p>
               A Full-Stack developer with Innovative ideas a team player and
               passionate about coding.
@@ -20,7 +20,7 @@ export default function Hero({ setIsContactModalVisible }) {
                 setIsContactModalVisible(true);
               }}
             >
-              Let's Talk <img src="/icons/Message.svg" className="buttonImg" />
+              Let&apos;s Talk <img src="/icons/Message.svg" className="buttonImg" />
             </button>
           </div>
         </div>

@@ -189,7 +189,7 @@ p {
   width: 100%;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .modalTopDiv img {
@@ -612,7 +612,7 @@ p {
 .contactIconsMainDiv a {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: flex-start;
 }
 
 .contactIconsMainDiv img {

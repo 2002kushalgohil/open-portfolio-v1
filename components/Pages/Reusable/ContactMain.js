@@ -6,7 +6,7 @@ export default function ContactMain() {
           <div className="subHeading">
             <h2>मुझसे संपर्क करें</h2>
           </div>
-          <h1>Let's Discuss Your Project</h1>
+          <h1>Let&apos;s Discuss Your Project</h1>
           <p>
             Feel free to contact me for career prospects, business services, and
             other professional inquiries!

@@ -37,7 +37,7 @@ export default function Projects() {
               <h2>मेरा काम</h2>
             </div>
             <h1>My Project at a Glance</h1>
-            <p>I will let the work I've done speak for me - "Corrine Brown"</p>
+            <p>I will let the work I&apos;ve done speak for me - &quot;Corrine Brown&quot;</p>
           </div>
           <img src="/website.png" />
         </div>
