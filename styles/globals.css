@@ -305,7 +305,7 @@ p {
   padding: 0;
 }
 
-.experienceCard button{
+.experienceCard button {
   padding: 15px;
 }
 
@@ -323,7 +323,7 @@ p {
 
 /* ------------------- Skills ---------------- */
 
-.skills{
+.skills {
   height: 100%;
   width: 100%;
   min-height: 100vh;
@@ -335,12 +335,12 @@ p {
   padding: 60px 0px;
 }
 
-
-.skillsSubDiv1,.skillsSubDiv2{
+.skillsSubDiv1,
+.skillsSubDiv2 {
   text-align: center;
 }
 
-.skillsSubDiv2{
+.skillsSubDiv2 {
   margin-top: var(--mp-main);
   display: flex;
   align-items: center;
@@ -349,7 +349,7 @@ p {
   gap: var(--mp-main);
 }
 
-.skillsCard{
+.skillsCard {
   width: 135px;
   height: 180px;
   margin: var(--mp-third);
@@ -359,12 +359,142 @@ p {
   flex-direction: column;
 }
 
-.skillsCard img{
+.skillsCard img {
   width: 100%;
 }
 
-.skillsCard h2{
- margin-top: var(--mp-third); 
+.skillsCard h2 {
+  margin-top: var(--mp-third);
+}
+
+/* ------------------- Project ---------------- */
+
+.project {
+  height: 100%;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--mp-main);
+  padding: 60px 0px;
+}
+
+.projectSub1,
+.projectSub2 {
+  width: 50%;
+}
+
+.projectSub1Main {
+  width: 100%;
+  max-width: 500px;
+}
+
+.projectSub1 img {
+  margin-top: var(--mp-main);
+  width: 100%;
+  max-width: 500px;
+}
+
+.projectsTopDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.projectsTopDiv p {
+  margin-right: var(--mp-main);
+  cursor: pointer;
+  padding: var(--mp-third) 0px;
+}
+
+.projectsTopDiv p:hover {
+  opacity: 1;
+}
+
+.projectsTopDiv .active {
+  transition: none;
+  border-bottom: 2px solid var(--secondary-color);
+  opacity: 1;
+}
+
+.swiperDiv {
+  margin-top: var(--mp-main);
+  width: 100%;
+  height: 100%;
+  height: 450px;
+}
+
+.swiperCard {
+  margin-top: var(--mp-secondary);
+}
+
+.swiper-pagination-progressbar-fill,
+.swiper-pagination-progressbar {
+  border-radius: var(--mp-main);
+  overflow: hidden;
+}
+
+.swiperCardMain {
+  height: 95%;
+  width: 100%;
+  border-radius: var(--mp-secondary);
+  border: 1px solid var(--border-color);
+  overflow: hidden;
+}
+
+.projectMainImg {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  object-fit: cover;
+}
+
+.swiperCardMainContent {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px) saturate(180%);
+  -webkit-backdrop-filter: blur(3px) saturate(180%);
+  background-color: rgba(255, 255, 255, 0.313);
+}
+
+.swiperCardMain:hover > .swiperCardMainContent {
+  opacity: 1;
+}
+
+.swiperCardMain:hover .swiperCardMainContent div {
+  transition: 0.3s ease-in-out;
+  transform: scale(1);
+}
+
+.swiperCardMainContent div {
+  transform: scale(0);
+  cursor: pointer;
+  text-align: center;
+  background-color: var(--primary-color);
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.swiperCardMainContent p {
+  margin-top: var(--mp-third);
+}
+
+.swiperCardMainContent div:hover {
+  background-color: #fff;
 }
 
 /* ------------------- Media Query ---------------- */
@@ -447,17 +577,33 @@ p {
   .experienceCardTopLeft {
     flex: 1;
   }
-  
+
   .experienceCardTopRight {
     flex: 4;
   }
 
-  .skills{
+  .skills {
     padding: 30px 0px;
   }
-  .skillsCard{
+  .skillsCard {
     width: 100px;
     height: 130px;
+  }
+
+  .project {
+    flex-direction: column;
+    padding: 30px 0px;
+  }
+
+  .projectSub1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .projectSub1,
+  .projectSub2 {
+    width: 100%;
   }
 }
 
