@@ -11,6 +11,14 @@ export default function ContactMain() {
             Feel free to contact me for career prospects, business services, and
             other professional inquiries!
           </p>
+          <button
+            className="button buttonPrimary"
+            onClick={() => {
+              window.open("./Resume.pdf", "_blank");
+            }}
+          >
+            Resume <img src="/icons/Download.svg" className="buttonImg" />
+          </button>
         </div>
         <ul className="contactIconsMainDiv">
           <a href="mailto:2002kushalgohil@gmail.com">
@@ -32,17 +40,9 @@ export default function ContactMain() {
         </ul>
       </div>
       <div className="contactMainSub2">
-        <input type="text" placeholder="Name" className="inputBox boxShadow" />
-        <input
-          type="email"
-          placeholder="Email"
-          className="inputBox boxShadow"
-        />
-        <textarea
-          placeholder="Message"
-          className="inputBox boxShadow"
-          rows={5}
-        />
+        <input type="text" placeholder="Name" className="inputBox" />
+        <input type="email" placeholder="Email" className="inputBox" />
+        <textarea placeholder="Message" className="inputBox" rows={5} />
         <button className="button buttonPrimary boxShadow">
           Submit <img src="/icons/Message.svg" className="buttonImg" />
         </button>

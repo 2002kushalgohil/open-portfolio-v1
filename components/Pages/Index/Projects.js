@@ -16,12 +16,22 @@ export default function Projects() {
     return (
       <SwiperSlide key={index} className="swiperCard">
         <div className="swiperCardMain">
-          <img src={`/Projects/${data.imgSrc}`} className="projectMainImg" />
+          <img src={`${data.imgSrc}`} className="projectMainImg" />
           <div className="swiperCardMainContent">
-            <div>
-              <h2>{data.name}</h2>
-              <p> (Case Study)</p>
-            </div>
+            <h2>{data.name}</h2>
+            <h2>
+              {data.stack.map((data) => {
+                return data + ", ";
+              })}
+            </h2>
+            <a
+              href={data.liveLink}
+              target="blank"
+              className="button buttonPrimary"
+            >
+              Live Preview
+              <img src="/icons/ArrowTopRight.svg" className="buttonImg" />
+            </a>
           </div>
         </div>
       </SwiperSlide>
@@ -37,7 +47,10 @@ export default function Projects() {
               <h2>मेरा काम</h2>
             </div>
             <h1>My Project at a Glance</h1>
-            <p>I will let the work I&apos;ve done speak for me - &quot;Corrine Brown&quot;</p>
+            <p>
+              I will let the work I&apos;ve done speak for me - &quot;Corrine
+              Brown&quot;
+            </p>
           </div>
           <img src="/website.png" />
         </div>

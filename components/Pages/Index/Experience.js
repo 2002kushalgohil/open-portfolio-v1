@@ -26,8 +26,8 @@ export default function Experience() {
                     <button
                       className="button buttonRoundPrimary boxShadow"
                       onClick={() => {
-                        setIsModalVisible(true);
                         setCurrentExperience(data);
+                        setIsModalVisible(true);
                       }}
                     >
                       <img
