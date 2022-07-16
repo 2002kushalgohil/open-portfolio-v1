@@ -27,10 +27,8 @@ export default function Services() {
                   {index + 1}. {data.name}
                 </h1>
                 <div className="servicesCardFooter">
-                  <p>Explore</p>
-                  <button className="button buttonRoundPrimary">
-                    <img src="/icons/ArrowTopRight.svg" className="buttonImg" />
-                  </button>
+                  <p>Proficiency</p>
+                  <h2>{data.proficiency}</h2>
                 </div>
               </div>
             );

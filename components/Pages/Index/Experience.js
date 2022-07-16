@@ -24,7 +24,7 @@ export default function Experience() {
                       <p>{data.company}</p>
                     </div>
                     <button
-                      className="button buttonRoundPrimary"
+                      className="button buttonRoundPrimary boxShadow"
                       onClick={() => {
                         setIsModalVisible(true);
                         setCurrentExperience(data);

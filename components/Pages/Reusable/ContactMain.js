@@ -32,10 +32,18 @@ export default function ContactMain() {
         </ul>
       </div>
       <div className="contactMainSub2">
-        <input type="text" placeholder="Name" className="inputBox" />
-        <input type="email" placeholder="Email" className="inputBox" />
-        <textarea placeholder="Message" className="inputBox" rows={5} />
-        <button className="button buttonPrimary">
+        <input type="text" placeholder="Name" className="inputBox boxShadow" />
+        <input
+          type="email"
+          placeholder="Email"
+          className="inputBox boxShadow"
+        />
+        <textarea
+          placeholder="Message"
+          className="inputBox boxShadow"
+          rows={5}
+        />
+        <button className="button buttonPrimary boxShadow">
           Submit <img src="/icons/Message.svg" className="buttonImg" />
         </button>
       </div>

@@ -313,13 +313,8 @@ p {
   justify-content: space-between;
 }
 
-.servicesCardFooter button img {
-  margin: 0px;
-  padding: 0px;
-}
-
-.servicesCardFooter button {
-  padding: 15px;
+.servicesCardFooter h2{
+  color: var(--secondary-color);
 }
 
 /* ------------------- Experience ---------------- */
