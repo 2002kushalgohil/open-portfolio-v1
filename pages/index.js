@@ -15,7 +15,7 @@ export default function Home() {
   useEffect(() => {
     Aos.init({
       duration: 1500,
-      offset: 80,
+      offset: 0,
     });
   }, []);
   const [isModalVisible, setIsModalVisible] = useState(false);

@@ -314,7 +314,7 @@ p {
   justify-content: space-between;
 }
 
-.servicesCardFooter h2{
+.servicesCardFooter h2 {
   color: var(--secondary-color);
 }
 
@@ -401,7 +401,7 @@ p {
 .experienceModalSub1 {
   flex: 1;
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .experienceModalSub1Main {
@@ -585,10 +585,10 @@ p {
   opacity: 1;
 }
 
-.swiperCardMainContent h2,.swiperCardMainContent a{
+.swiperCardMainContent h2,
+.swiperCardMainContent a {
   margin-top: var(--mp-secondary);
 }
-
 
 /* ------------------- Contact ---------------- */
 
@@ -621,7 +621,7 @@ p {
   max-width: 500px;
 }
 
-.contactMainSub1Main button{
+.contactMainSub1Main button {
   margin-top: var(--mp-secondary);
 }
 
@@ -803,10 +803,9 @@ p {
     overflow: scroll;
   }
 
-  .experienceModal{
+  .experienceModal {
     flex-direction: column;
   }
-
 }
 
 @media (max-width: 640px) {
