@@ -6,6 +6,7 @@ import "swiper/css/pagination";
 export default function SwiperComponent({ swiperCardBlock }) {
   return (
     <Swiper
+      data-aos="slide-up"
       pagination={{
         type: "progressbar",
       }}

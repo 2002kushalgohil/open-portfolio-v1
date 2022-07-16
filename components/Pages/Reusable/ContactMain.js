@@ -2,7 +2,7 @@ export default function ContactMain() {
   return (
     <div className="contactMain">
       <div className="contactMainSub1">
-        <div className="contactMainSub1Main">
+        <div className="contactMainSub1Main" data-aos="slide-up">
           <div className="subHeading">
             <h2>मुझसे संपर्क करें</h2>
           </div>
@@ -20,7 +20,7 @@ export default function ContactMain() {
             Resume <img src="/icons/Download.svg" className="buttonImg" />
           </button>
         </div>
-        <ul className="contactIconsMainDiv">
+        <ul className="contactIconsMainDiv" data-aos="slide-up">
           <a href="mailto:2002kushalgohil@gmail.com">
             <img src="/icons/Email.svg" />
             <p>2002kushalgohil@gmail.com</p>
@@ -39,7 +39,7 @@ export default function ContactMain() {
           </a>
         </ul>
       </div>
-      <div className="contactMainSub2">
+      <div className="contactMainSub2" data-aos="slide-up">
         <input type="text" placeholder="Name" className="inputBox" />
         <input type="email" placeholder="Email" className="inputBox" />
         <textarea placeholder="Message" className="inputBox" rows={5} />

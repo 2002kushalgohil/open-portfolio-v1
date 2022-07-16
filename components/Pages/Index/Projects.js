@@ -42,7 +42,7 @@ export default function Projects() {
     <Layout>
       <div className="project">
         <div className="projectSub1">
-          <div className="projectSub1Main">
+          <div className="projectSub1Main" data-aos="slide-right">
             <div className="subHeading">
               <h2>मेरा काम</h2>
             </div>
@@ -52,10 +52,10 @@ export default function Projects() {
               Brown&quot;
             </p>
           </div>
-          <img src="/website.png" />
+          <img src="/website.png" data-aos="fade-up" />
         </div>
         <div className="projectSub2">
-          <div className="projectsTopDiv">
+          <div className="projectsTopDiv" data-aos="slide-up">
             {category.map((data, index) => {
               return (
                 <p

@@ -170,7 +170,6 @@ p {
   z-index: 100;
   width: 100%;
   height: 100vh;
-  display: flex;
   align-items: center;
   justify-content: center;
   padding: var(--mp-main);
@@ -277,6 +276,7 @@ p {
 
 .servicesSub1,
 .servicesSub2 {
+  overflow: hidden;
   width: 50%;
 }
 
@@ -365,6 +365,7 @@ p {
   align-items: center;
   justify-content: center;
   padding-top: var(--mp-secondary);
+  overflow-x: hidden;
 }
 
 .experienceCard button img {

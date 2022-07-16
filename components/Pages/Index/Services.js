@@ -6,7 +6,7 @@ export default function Services() {
     <Layout>
       <div className="services">
         <div className="servicesSub1">
-          <div className="servicesSub1Main">
+          <div className="servicesSub1Main" data-aos="slide-up">
             <div className="subHeading">
               <h2>मेरी सेवाएं</h2>
             </div>
@@ -17,12 +17,12 @@ export default function Services() {
               customers, and growing overall sales.
             </p>
           </div>
-          <img src="/service.png" />
+          <img src="/service.png" data-aos="fade-up" />
         </div>
         <div className="servicesSub2">
           {services.map((data, index) => {
             return (
-              <div key={index} className="servicesCard">
+              <div key={index} className="servicesCard" data-aos="slide-left">
                 <h1>
                   {index + 1}. {data.name}
                 </h1>

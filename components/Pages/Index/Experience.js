@@ -14,7 +14,11 @@ export default function Experience() {
           <div className="experienceSub1">
             {experience.map((data, index) => {
               return (
-                <div key={index} className="experienceCard">
+                <div
+                  key={index}
+                  className="experienceCard"
+                  data-aos="slide-right"
+                >
                   <div className="experienceCardTopLeft">
                     <p>{data.date}</p>
                   </div>
@@ -41,7 +45,7 @@ export default function Experience() {
             })}
           </div>
           <div className="experienceSub2">
-            <div className="experienceSub2Main">
+            <div className="experienceSub2Main" data-aos="slide-up">
               <div className="subHeading">
                 <h2>अनुभव</h2>
               </div>
@@ -51,7 +55,7 @@ export default function Experience() {
                 containing logical solutions to business problems.
               </p>
             </div>
-            <img src="/myImg.png" />
+            <img src="/myImg.png" data-aos="fade-up" />
           </div>
         </div>
       </Layout>

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Contact from "../components/Pages/Index/Contact";
 import Experience from "../components/Pages/Index/Experience";
 import Hero from "../components/Pages/Index/Hero";
@@ -8,8 +8,16 @@ import Services from "../components/Pages/Index/Services";
 import Skills from "../components/Pages/Index/Skills";
 import ContactMain from "../components/Pages/Reusable/ContactMain";
 import Modal from "../components/Pages/Reusable/Modal";
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 export default function Home() {
+  useEffect(() => {
+    Aos.init({
+      duration: 1500,
+      offset: 80,
+    });
+  }, []);
   const [isModalVisible, setIsModalVisible] = useState(false);
   return (
     <>
