@@ -204,7 +204,7 @@ p {
 
 .modalBody {
   margin-top: var(--mp-secondary);
-  height: 95%;
+  height: 90%;
 }
 
 /* ------------------- Main Section -------------- */
@@ -390,6 +390,47 @@ p {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.experienceModal {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: var(--mp-main);
+}
+
+.experienceModalSub1 {
+  flex: 1;
+  display: flex;
+  flex-direction: column; 
+}
+
+.experienceModalSub1Main {
+  margin-top: var(--mp-main);
+}
+
+.experienceLogo {
+  width: 100%;
+  max-width: 250px;
+}
+
+.experienceModalSub2 {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.experienceTasks {
+  margin-top: var(--mp-main);
+}
+
+.experienceTasks h2 {
+  list-style-type: disc !important;
+  margin-top: var(--mp-secondary);
 }
 
 /* ------------------- Skills ---------------- */
@@ -777,6 +818,11 @@ p {
   .modalBody {
     overflow: scroll;
   }
+
+  .experienceModal{
+    flex-direction: column;
+  }
+
 }
 
 @media (max-width: 640px) {

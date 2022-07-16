@@ -10,7 +10,7 @@ import ContactMain from "../components/Pages/Reusable/ContactMain";
 import Modal from "../components/Pages/Reusable/Modal";
 
 export default function Home() {
-  const [isContactModalVisible, setIsContactModalVisible] = useState(false);
+  const [isModalVisible, setIsModalVisible] = useState(false);
   return (
     <>
       <Head>
@@ -48,12 +48,12 @@ export default function Home() {
         <link rel="manifest" href="/favicon/site.webmanifest"></link>
       </Head>
       <Modal
-        isVisible={isContactModalVisible}
-        setIsContactModalVisible={setIsContactModalVisible}
+        isModalVisible={isModalVisible}
+        setIsModalVisible={setIsModalVisible}
       >
         <ContactMain />
       </Modal>
-      <Hero setIsContactModalVisible={setIsContactModalVisible} />
+      <Hero setIsModalVisible={setIsModalVisible} />
       <div
         style={{
           backgroundColor: "var(--primary-color)",

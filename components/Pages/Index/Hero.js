@@ -1,6 +1,6 @@
 import Layout from "../../layouts/Layout";
 
-export default function Hero({ setIsContactModalVisible }) {
+export default function Hero({ setIsModalVisible }) {
   return (
     <Layout>
       <div className="home">
@@ -17,7 +17,7 @@ export default function Hero({ setIsContactModalVisible }) {
             <button
               className="button buttonPrimary"
               onClick={() => {
-                setIsContactModalVisible(true);
+                setIsModalVisible(true);
               }}
             >
               Let&apos;s Talk <img src="/icons/Message.svg" className="buttonImg" />

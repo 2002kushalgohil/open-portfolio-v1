@@ -1,16 +1,16 @@
 export default function Modal({
   children,
-  isVisible,
-  setIsContactModalVisible,
+  isModalVisible,
+  setIsModalVisible,
 }) {
   return (
     <div
       className="modalBg"
       style={{
-        display: !isVisible ? "none" : "",
+        display: !isModalVisible ? "none" : "",
       }}
       onClick={() => {
-        setIsContactModalVisible(false);
+        setIsModalVisible(false);
       }}
     >
       <div
@@ -23,7 +23,7 @@ export default function Modal({
           <img
             src="/icons/Cancel.svg"
             onClick={() => {
-              setIsContactModalVisible(false);
+              setIsModalVisible(false);
             }}
           />
         </div>
