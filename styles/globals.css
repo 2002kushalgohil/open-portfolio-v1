@@ -64,6 +64,12 @@ p {
   margin-left: var(--mp-secondary);
 }
 
+.btnLoading {
+  background-color: var(--round-btn-color) !important;
+  color: black !important;
+  cursor: not-allowed;
+}
+
 .button:hover {
   transform: translateY(-2px);
 }
@@ -664,6 +670,15 @@ p {
 
 .contactMainSub2 button {
   align-self: flex-start;
+}
+
+.contactMessageDiv {
+  text-align: center;
+  font-weight: 500;
+  color: #ffff;
+  width: 100%;
+  padding: var(--mp-third);
+  border-radius: var(--mp-third);
 }
 
 /* ------------------- Media Query ---------------- */
