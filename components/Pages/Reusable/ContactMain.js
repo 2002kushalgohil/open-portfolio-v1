@@ -25,10 +25,6 @@ export default function ContactMain() {
     const email = e.target.email.value;
     const message = e.target.message.value;
 
-    console.log(name);
-    console.log(email);
-    console.log(message);
-
     if (!email || !name || !message) {
       setMessage({
         message: "Please fill all the fields",
@@ -51,7 +47,6 @@ export default function ContactMain() {
       )
       .then(
         (data) => {
-          console.log(data.text);
           e.target.reset();
           setBtnText("Submit");
           setIsLoading(false);
@@ -65,7 +60,6 @@ export default function ContactMain() {
           }, 5000);
         },
         (error) => {
-          console.log(error.text);
           setBtnText("Submitting");
           setIsLoading(false);
           setMessage({

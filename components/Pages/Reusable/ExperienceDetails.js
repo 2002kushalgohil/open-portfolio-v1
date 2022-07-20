@@ -15,7 +15,7 @@ export default function ExperienceDetails({ data }) {
         </div>
         <ul className="experienceTasks">
           {data?.tasksAndAchievements?.map((data, index) => {
-            return <h2>{index + 1 + ". " + data}</h2>;
+            return <h2 key={index}>{index + 1 + ". " + data}</h2>;
           })}
         </ul>
       </div>
