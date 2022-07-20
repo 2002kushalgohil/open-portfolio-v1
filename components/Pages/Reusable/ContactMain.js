@@ -101,20 +101,28 @@ export default function ContactMain() {
             Resume <img src="/icons/Download.svg" className="buttonImg" />
           </button>
         </div>
-        <ul className="contactIconsMainDiv" data-aos="flip-up">
-          <a href="mailto:2002kushalgohil@gmail.com">
+        <ul className="contactIconsMainDiv">
+          <a href="mailto:2002kushalgohil@gmail.com" data-aos="flip-up">
             <img src="/icons/Email.svg" />
             <p>2002kushalgohil@gmail.com</p>
           </a>
-          <a href="tel:+917040099240">
+          <a href="tel:+917040099240" data-aos="flip-up">
             <img src="/icons/Phone.svg" />
             <p>+91 7040099240</p>
           </a>
-          <a href="https://www.linkedin.com/in/2002kushalgohil/" target="blank">
+          <a
+            href="https://www.linkedin.com/in/2002kushalgohil/"
+            target="blank"
+            data-aos="flip-up"
+          >
             <img src="/icons/LinkedIn.svg" />
             <p>2002kushalgohil</p>
           </a>
-          <a href="https://github.com/2002kushalgohil" target="blank">
+          <a
+            href="https://github.com/2002kushalgohil"
+            target="blank"
+            data-aos="flip-up"
+          >
             <img src="/icons/GitHub.svg" />
             <p>2002kushalgohil</p>
           </a>

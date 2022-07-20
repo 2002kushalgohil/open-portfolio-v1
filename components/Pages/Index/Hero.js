@@ -29,7 +29,7 @@ export default function Hero({ setIsModalVisible }) {
           </div>
         </div>
         <div className="homeSubDiv2">
-          <img src="/heroImg.gif" className="heroImg" data-aos="slide-down" />
+          <img src="/heroImg.png" className="heroImg" data-aos="slide-down" />
         </div>
       </div>
     </Layout>
