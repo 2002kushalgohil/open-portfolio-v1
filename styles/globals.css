@@ -25,10 +25,6 @@ html {
   font-size: 16px;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
-
 h1 {
   font-weight: 600;
   font-size: 4rem;
@@ -216,6 +212,11 @@ p {
   overflow: scroll;
   margin-top: var(--mp-secondary);
   height: 90%;
+}
+
+
+.modalBody::-webkit-scrollbar {
+  display: none;
 }
 
 /* ------------------- Main Section -------------- */
