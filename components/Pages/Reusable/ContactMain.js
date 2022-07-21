@@ -125,7 +125,7 @@ export default function ContactMain() {
       <form
         className="contactMainSub2"
         onSubmit={handleFormSubmit}
-        data-aos="slide-up"
+        data-aos="fade-up"
       >
         <div
           className="contactMessageDiv"
