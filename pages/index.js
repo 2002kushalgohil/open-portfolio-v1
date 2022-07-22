@@ -20,7 +20,7 @@ export default function Home() {
     });
   }, []);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [mode, setMode] = useState("darkMode");
+  const [mode, setMode] = useState("");
   return (
     <div className={mode}>
       <Head>
