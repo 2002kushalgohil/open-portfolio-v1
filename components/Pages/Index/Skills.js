@@ -4,7 +4,7 @@ import Layout from "../../layouts/Layout";
 export default function Skills() {
   return (
     <Layout>
-      <div className="skills">
+      <div className="skills" id="skills">
         <div className="skillsSubDiv1" data-aos="slide-up">
           <div className="subHeading">
             <h2>कौशल</h2>

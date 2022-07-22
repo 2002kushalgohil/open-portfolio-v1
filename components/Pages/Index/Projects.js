@@ -40,7 +40,7 @@ export default function Projects() {
 
   return (
     <Layout>
-      <div className="project">
+      <div className="project" id="project">
         <div className="projectSub1">
           <div className="projectSub1Main" data-aos="slide-right">
             <div className="subHeading">

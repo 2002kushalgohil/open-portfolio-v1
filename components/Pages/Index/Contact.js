@@ -3,7 +3,7 @@ import ContactMain from "../Reusable/ContactMain";
 export default function Contact() {
   return (
     <Layout>
-      <div className="contact">
+      <div className="contact" id="contact">
         <ContactMain />
       </div>
     </Layout>

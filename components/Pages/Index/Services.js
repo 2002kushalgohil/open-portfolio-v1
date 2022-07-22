@@ -4,7 +4,7 @@ import Layout from "../../layouts/Layout";
 export default function Services() {
   return (
     <Layout>
-      <div className="services">
+      <div className="services" id="services">
         <div className="servicesSub1">
           <div className="servicesSub1Main" data-aos="slide-up">
             <div className="subHeading">
@@ -22,7 +22,7 @@ export default function Services() {
         <div className="servicesSub2">
           {services.map((data, index) => {
             return (
-              <div key={index} className="servicesCard" data-aos="slide-left">
+              <div key={index} className="servicesCard borderTop" data-aos="slide-left">
                 <h1>
                   {index + 1}. {data.name}
                 </h1>

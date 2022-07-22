@@ -10,6 +10,7 @@ import ContactMain from "../components/Pages/Reusable/ContactMain";
 import Modal from "../components/Pages/Reusable/Modal";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import NavBar from "../components/Pages/Reusable/NavBar";
 
 export default function Home() {
   useEffect(() => {
@@ -19,8 +20,9 @@ export default function Home() {
     });
   }, []);
   const [isModalVisible, setIsModalVisible] = useState(false);
+  const [mode, setMode] = useState("darkMode");
   return (
-    <>
+    <div className={mode}>
       <Head>
         <title>Kushal Gohil - Full Stack Developer</title>
         <meta name="title" content="Kushal Gohil - Full Stack Developer" />
@@ -55,6 +57,7 @@ export default function Home() {
         />
         <link rel="manifest" href="/favicon/site.webmanifest"></link>
       </Head>
+      <NavBar mode={mode} setMode={setMode} />
       <Modal
         isModalVisible={isModalVisible}
         setIsModalVisible={setIsModalVisible}
@@ -62,29 +65,17 @@ export default function Home() {
         <ContactMain />
       </Modal>
       <Hero setIsModalVisible={setIsModalVisible} />
-      <div
-        style={{
-          backgroundColor: "var(--primary-color)",
-        }}
-      >
+      <div className="oddSectionColor">
         <Services />
       </div>
       <Experience />
-      <div
-        style={{
-          backgroundColor: "var(--primary-color)",
-        }}
-      >
+      <div className="oddSectionColor">
         <Skills />
       </div>
       <Projects />
-      <div
-        style={{
-          backgroundColor: "var(--primary-color)",
-        }}
-      >
+      <div className="oddSectionColor">
         <Contact />
       </div>
-    </>
+    </div>
   );
 }

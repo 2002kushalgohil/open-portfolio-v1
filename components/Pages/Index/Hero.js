@@ -3,7 +3,7 @@ import Layout from "../../layouts/Layout";
 export default function Hero({ setIsModalVisible }) {
   return (
     <Layout>
-      <div className="home">
+      <div className="home" id="home">
         <div className="homeSubDiv1">
           <div className="homeSubDiv1MainSection">
             <div className="subHeading" data-aos="flip-down">

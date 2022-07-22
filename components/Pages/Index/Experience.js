@@ -10,13 +10,13 @@ export default function Experience() {
   return (
     <>
       <Layout>
-        <div className="experience">
+        <div className="experience"id="experience">
           <div className="experienceSub1">
             {experience.map((data, index) => {
               return (
                 <div
                   key={index}
-                  className="experienceCard"
+                  className="experienceCard borderTop"
                   data-aos="slide-right"
                 >
                   <div className="experienceCardTopLeft">

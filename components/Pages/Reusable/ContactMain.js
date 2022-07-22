@@ -18,7 +18,7 @@ export default function ContactMain() {
     setIsLoading(true);
     setMessage({
       message: "Sending...",
-      bgColor: "blue",
+      bgColor: "#4c40f7",
       status: "",
     });
     const name = e.target.name.value;
@@ -28,7 +28,7 @@ export default function ContactMain() {
     if (!email || !name || !message) {
       setMessage({
         message: "Please fill all the fields",
-        bgColor: "blue",
+        bgColor: "#4c40f7",
         status: "",
       });
       setTimeout(() => {
@@ -73,6 +73,29 @@ export default function ContactMain() {
         }
       );
   };
+
+  const links = [
+    {
+      href: "mailto:2002kushalgohil@gmail.com",
+      src: "/icons/Email.svg",
+      text: "2002kushalgohil@gmail.com",
+    },
+    {
+      href: "tel:+917040099240",
+      src: "/icons/Phone.svg",
+      text: "+91 7040099240",
+    },
+    {
+      href: "https://www.linkedin.com/in/2002kushalgohil/",
+      src: "/icons/LinkedIn.svg",
+      text: "2002kushalgohil",
+    },
+    {
+      href: "https://github.com/2002kushalgohil",
+      src: "/icons/GitHub.svg",
+      text: "2002kushalgohil",
+    },
+  ];
   return (
     <div className="contactMain">
       <div className="contactMainSub1">
@@ -96,30 +119,14 @@ export default function ContactMain() {
           </button>
         </div>
         <ul className="contactIconsMainDiv">
-          <a href="mailto:2002kushalgohil@gmail.com" data-aos="flip-up">
-            <img src="/icons/Email.svg" />
-            <p>2002kushalgohil@gmail.com</p>
-          </a>
-          <a href="tel:+917040099240" data-aos="flip-up">
-            <img src="/icons/Phone.svg" />
-            <p>+91 7040099240</p>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/2002kushalgohil/"
-            target="blank"
-            data-aos="flip-up"
-          >
-            <img src="/icons/LinkedIn.svg" />
-            <p>2002kushalgohil</p>
-          </a>
-          <a
-            href="https://github.com/2002kushalgohil"
-            target="blank"
-            data-aos="flip-up"
-          >
-            <img src="/icons/GitHub.svg" />
-            <p>2002kushalgohil</p>
-          </a>
+          {links.map((data, key) => {
+            return (
+              <a key={key} href={data.href} data-aos="flip-up" target="blank">
+                <img src={data.src} />
+                <p>{data.text}</p>
+              </a>
+            );
+          })}
         </ul>
       </div>
       <form
