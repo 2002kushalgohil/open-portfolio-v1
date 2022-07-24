@@ -5,11 +5,11 @@ export default [
     company: "Bridged Media",
     logo: "/Experience/Bridged Media/logo.png",
     tasksAndAchievements: [
-      "Built a landing page for Bridged using Next JS , Tailwind CSS.",
+      "Built a landing page for Bridged using Next JS , Tailwind CSS. ",
       "Built a end-to-end portal from scratch that lets user create a Quiz, Poll, Fact check, etc for embedding in any website or sharing using a link.",
-      "Built reusable UI components for Bridged Portal using React JS , Ant Design, and custom CSS3.",
+      "Built reusable UI components for Bridged Portal using React JS , Ant Design, and CSS3.",
       "Built a connection between Flutter web and React JS for data sharing.",
-      "Migrated endpoints for an internal portal from PHP to Nest JS which saved 25% of the time of our content writers.",
+      "Migrated endpoints and frontend for an internal portal from PHP to Nest JS and Angular respectively which saved 25% of the time of our content writers.",
     ],
   },
   {
@@ -28,7 +28,7 @@ export default [
     company: "KisanKonnect",
     logo: "/Experience/KisanKonnect/logo.jpg",
     tasksAndAchievements: [
-      "My Task was to generate leads from social media campaigns and convert them into customers",
+      "As my communication skills were not good so I decided to take a break and work in the field which includes user interaction.",
     ],
   },
   {
@@ -48,8 +48,10 @@ export default [
     company: "Indian Tech",
     logo: "/Experience/Indian Tech/logo.webp",
     tasksAndAchievements: [
-      "Built a Browser app that can be used across the Android platform.",
-      "Built a Cricket website to show live scores of the ongoing cricket match.",
+      "Built a Browser app named India Browser that can be used across the Android platform.",
+      "Built a Cricket website using HTML, CSS, and JavaScript to show live scores of the ongoing cricket match.",
+      "Built an earning Web App that lets users watch ads and earn money using HTML, CSS, JavaScript, and Firebase.",
+      "Built responsive Landing pages for local businesses using HTML , and CSS.",
     ],
   },
 ];
