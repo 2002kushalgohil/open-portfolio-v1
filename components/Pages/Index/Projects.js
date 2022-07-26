@@ -17,7 +17,11 @@ export default function Projects() {
     return (
       <SwiperSlide key={index} className="swiperCard">
         <div className="swiperCardMain">
-          <img src={`${data.imgSrc}`} className="projectMainImg" />
+          <img
+            src={`${data.imgSrc}`}
+            className="projectMainImg"
+            alt="Project"
+          />
           <div className="swiperCardMainContent">
             <h2>{data.name}</h2>
             <h2>
@@ -31,7 +35,11 @@ export default function Projects() {
               className="button buttonPrimary"
             >
               Live Preview
-              <img src="/icons/ArrowTopRight.svg" className="buttonImg" />
+              <img
+                src="/icons/ArrowTopRight.svg"
+                className="buttonImg"
+                alt="Arrow"
+              />
             </a>
           </div>
         </div>
@@ -58,6 +66,7 @@ export default function Projects() {
             data-aos="fade-up"
             height={400}
             width={500}
+            alt="Website"
           />
         </div>
         <div className="projectSub2">

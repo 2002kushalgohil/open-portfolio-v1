@@ -38,6 +38,7 @@ export default function Experience() {
                       <img
                         src="/icons/ArrowTopRight.svg"
                         className="buttonImg"
+                        alt="Arrow"
                       />
                     </button>
                   </div>
@@ -61,6 +62,7 @@ export default function Experience() {
               data-aos="fade-up"
               height={500}
               width={500}
+              alt="Kushal"
             />
           </div>
         </div>

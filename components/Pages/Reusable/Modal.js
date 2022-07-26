@@ -31,6 +31,7 @@ export default function Modal({ children, isModalVisible, setIsModalVisible }) {
             onClick={() => {
               setIsModalVisible(false);
             }}
+            alt="Cancel"
           />
         </div>
         <div className="modalBody">{children}</div>

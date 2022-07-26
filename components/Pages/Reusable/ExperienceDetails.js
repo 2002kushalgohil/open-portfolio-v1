@@ -2,7 +2,7 @@ export default function ExperienceDetails({ data }) {
   return (
     <div className="experienceModal">
       <div className="experienceModalSub1">
-        <img src={data.logo} className="experienceLogo" />
+        <img src={data.logo} className="experienceLogo" alt="Logo"/>
         <div className="experienceModalSub1Main">
           <p>{data.date}</p>
           <h2>{data.position}</h2>

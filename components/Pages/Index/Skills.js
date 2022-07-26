@@ -19,7 +19,7 @@ export default function Skills() {
           {skills.map((data, index) => {
             return (
               <div key={index} className="skillsCard" data-aos="slide-up">
-                <img src={data.imgSrc} />
+                <img src={data.imgSrc} alt="skills"/>
                 <h2>{data.name}</h2>
               </div>
             );

@@ -12,6 +12,7 @@ export default function NavBar({ mode, setMode }) {
         }}
         src={`icons/${mode == "" ? "Moon.svg" : "Sun.svg"}`}
         className="navBarModeImg"
+        alt="Mode"
       />
     </nav>
   );

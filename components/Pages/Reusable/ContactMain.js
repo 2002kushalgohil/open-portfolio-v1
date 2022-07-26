@@ -115,14 +115,19 @@ export default function ContactMain() {
               window.open("./Kushal Gohil Resume.pdf", "_blank");
             }}
           >
-            Resume <img src="/icons/Download.svg" className="buttonImg" />
+            Resume{" "}
+            <img
+              src="/icons/Download.svg"
+              className="buttonImg"
+              alt="Download"
+            />
           </button>
         </div>
         <ul className="contactIconsMainDiv">
           {links.map((data, key) => {
             return (
               <a key={key} href={data.href} data-aos="flip-up" target="blank">
-                <img src={data.src} />
+                <img src={data.src} alt="Links" />
                 <p>{data.text}</p>
               </a>
             );
@@ -168,7 +173,8 @@ export default function ContactMain() {
           type="submit"
           disabled={isLoading}
         >
-          {btnText} <img src="/icons/Message.svg" className="buttonImg" />
+          {btnText}{" "}
+          <img src="/icons/Message.svg" className="buttonImg" alt="Message" />
         </button>
       </form>
     </div>

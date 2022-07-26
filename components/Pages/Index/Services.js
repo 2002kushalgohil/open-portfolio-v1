@@ -22,6 +22,7 @@ export default function Services() {
             data-aos="fade-up"
             height={550}
             width={500}
+            alt="Services"
           />
         </div>
         <div className="servicesSub2">
