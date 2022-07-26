@@ -56,9 +56,9 @@ p {
   justify-content: center;
 }
 
-.buttonImg {
-  width: 25px;
-  margin-left: var(--mp-secondary);
+button span {
+  width: 20px;
+  margin-left: var(--mp-third) !important;
 }
 
 .home button img {
@@ -92,6 +92,10 @@ p {
   color: white;
   border-radius: 50% !important;
   background-color: var(--secondary-color);
+}
+
+.buttonRoundPrimary span {
+  margin: 0px !important;
 }
 
 .buttonRoundSecondary {
@@ -900,7 +904,6 @@ nav a:hover {
   .experienceModal {
     flex-direction: column;
   }
-  
 }
 
 @media (max-width: 640px) {
