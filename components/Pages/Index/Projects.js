@@ -1,5 +1,6 @@
 import Layout from "../../layouts/Layout";
 import { useEffect, useState } from "react";
+import Image from "next/dist/client/image";
 import { SwiperSlide } from "swiper/react";
 import projects, { category, fullStack } from "../../../Data/projects";
 import SwiperComponent from "../Reusable/SwiperComponent";
@@ -52,7 +53,12 @@ export default function Projects() {
               Brown&quot;
             </p>
           </div>
-          <img src="/website.png" data-aos="fade-up" />
+          <Image
+            src="/website.png"
+            data-aos="fade-up"
+            height={400}
+            width={500}
+          />
         </div>
         <div className="projectSub2">
           <div className="projectsTopDiv" data-aos="slide-up">

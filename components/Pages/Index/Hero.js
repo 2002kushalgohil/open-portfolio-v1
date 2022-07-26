@@ -1,5 +1,5 @@
 import Layout from "../../layouts/Layout";
-
+import Image from "next/image";
 export default function Hero({ setIsModalVisible }) {
   return (
     <Layout>
@@ -29,7 +29,13 @@ export default function Hero({ setIsModalVisible }) {
           </div>
         </div>
         <div className="homeSubDiv2">
-          <img src="/heroImg.png" className="heroImg" data-aos="slide-down" />
+          <Image
+            src="/heroImg.webp"
+            data-aos="slide-down"
+            height={800}
+            width={800}
+            className="heroImg"
+          />
         </div>
       </div>
     </Layout>

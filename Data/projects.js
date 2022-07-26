@@ -12,14 +12,14 @@ export default [
   // ------------------- Full Stack -------------------
   {
     name: "Google Keep Clone",
-    imgSrc: "/Projects/Full Stack/google keep.png",
+    imgSrc: "/Projects/Full Stack/google keep.webp",
     category: fullStack,
     stack: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
     liveLink: "https://google-keep--clone.herokuapp.com",
   },
   {
     name: "Headphone Website",
-    imgSrc: "/Projects/Website UI Development/Headphone Website.png",
+    imgSrc: "/Projects/Website UI Development/Headphone Website.webp",
     category: uiDevelopment,
     stack: ["NextJS", "TailwindCSS"],
     liveLink: "https://beats.kushalgohil.com/",

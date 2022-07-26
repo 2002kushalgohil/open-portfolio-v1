@@ -1,6 +1,7 @@
 import { useState } from "react";
 import experience from "../../../Data/experience";
 import Layout from "../../layouts/Layout";
+import Image from "next/image";
 import ExperienceDetails from "../Reusable/ExperienceDetails";
 import Modal from "../Reusable/Modal";
 export default function Experience() {
@@ -10,7 +11,7 @@ export default function Experience() {
   return (
     <>
       <Layout>
-        <div className="experience"id="experience">
+        <div className="experience" id="experience">
           <div className="experienceSub1">
             {experience.map((data, index) => {
               return (
@@ -55,7 +56,12 @@ export default function Experience() {
                 containing logical solutions to business problems.
               </p>
             </div>
-            <img src="/myImg.png" data-aos="fade-up" />
+            <Image
+              src="/myImg.webp"
+              data-aos="fade-up"
+              height={500}
+              width={500}
+            />
           </div>
         </div>
       </Layout>

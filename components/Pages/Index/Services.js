@@ -1,6 +1,6 @@
 import services from "../../../Data/services";
 import Layout from "../../layouts/Layout";
-
+import Image from "next/image";
 export default function Services() {
   return (
     <Layout>
@@ -17,12 +17,21 @@ export default function Services() {
               customers, and growing overall sales.
             </p>
           </div>
-          <img src="/service.png" data-aos="fade-up" />
+          <Image
+            src="/service.png"
+            data-aos="fade-up"
+            height={550}
+            width={500}
+          />
         </div>
         <div className="servicesSub2">
           {services.map((data, index) => {
             return (
-              <div key={index} className="servicesCard borderTop" data-aos="slide-left">
+              <div
+                key={index}
+                className="servicesCard borderTop"
+                data-aos="slide-left"
+              >
                 <h1>
                   {index + 1}. {data.name}
                 </h1>
