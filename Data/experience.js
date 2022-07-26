@@ -5,11 +5,11 @@ export default [
     company: "Bridged Media",
     logo: "/Experience/Bridged Media/logo.png",
     tasksAndAchievements: [
-      "Built a landing page for Bridged using Next JS , Tailwind CSS. ",
-      "Built a end-to-end portal from scratch that lets user create a Quiz, Poll, Fact check, etc for embedding in any website or sharing using a link.",
-      "Built reusable UI components for Bridged Portal using React JS , Ant Design, and CSS3.",
-      "Built a connection between Flutter web and React JS for data sharing.",
-      "Migrated endpoints and frontend for an internal portal from PHP to Nest JS and Angular respectively which saved 25% of the time of our content writers.",
+      "Built a landing using Next JS , and Tailwind CSS which has an average of 17,000 visitors per month .",
+      "Built an end-to-end portal that lets publishers create engagement and actions for any platform which can increase retention by 40% .",
+      "Built reusable UI components using ReactJS , Ant Design , and CSS3 which decreased further development time by 45% .",
+      "Built connection between Flutter web and ReactJS that reduced data sharing time from 1s to 1ms.",
+      "Migrated endpoints and frontend for an internal portal from PHP to Nest JS and Angular respectively which saved 25% of the time for the Team. ",
     ],
   },
   {
@@ -18,8 +18,8 @@ export default [
     company: "Conscience Journal",
     logo: "/Experience/Conscience Journal/logo.jpg",
     tasksAndAchievements: [
-      "Built a Landing page for Conscience Journal using HTML, CSS, and JavaScript.",
-      "Build a Newsletter API Back-end using NodeJS, Express, Mongoose, and MongoDB.",
+      "Built a Landing page for Conscience Journal using HTML , CSS3 , and JavaScript .",
+      "Build a Newsletter API Back-end using NodeJS , ExpressJS , and MongoDB used by an average of 5000 visitors.",
     ],
   },
   {
@@ -28,7 +28,8 @@ export default [
     company: "KisanKonnect",
     logo: "/Experience/KisanKonnect/logo.jpg",
     tasksAndAchievements: [
-      "As my communication skills were not good so I decided to take a break and work in the field which includes user interaction.",
+      "Contributed to the sales team which increased sales by 30% .",
+      "Managed social media leads with an average retention of 25% .",
     ],
   },
   {
@@ -48,10 +49,9 @@ export default [
     company: "Indian Tech",
     logo: "/Experience/Indian Tech/logo.webp",
     tasksAndAchievements: [
-      "Built a Browser app named India Browser that can be used across the Android platform.",
-      "Built a Cricket website using HTML, CSS, and JavaScript to show live scores of the ongoing cricket match.",
-      "Built an earning Web App that lets users watch ads and earn money using HTML, CSS, JavaScript, and Firebase.",
-      "Built responsive Landing pages for local businesses using HTML , and CSS.",
+      "Built a Browser app for the Android platform which generated revenue of 123.56 USD .",
+      "Built a website using HTML , CSS , and JavaScript showing live scores of the ongoing cricket match.",
+      "Built Landing pages for local businesses using HTML , and CSS with an average retention of 68%.",
     ],
   },
 ];

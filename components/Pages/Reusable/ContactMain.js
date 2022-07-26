@@ -112,7 +112,7 @@ export default function ContactMain() {
             data-aos="flip-up"
             className="button buttonPrimary"
             onClick={() => {
-              window.open("./Resume.pdf", "_blank");
+              window.open("./Kushal Gohil Resume.pdf", "_blank");
             }}
           >
             Resume <img src="/icons/Download.svg" className="buttonImg" />
