@@ -1,5 +1,6 @@
 import emailjs from "@emailjs/browser";
 import { init } from "@emailjs/browser";
+import Image from "next/image";
 import { useState } from "react";
 
 init("user_95agqqx0TacSl819iLfB8");
@@ -116,10 +117,12 @@ export default function ContactMain() {
             }}
           >
             Resume{" "}
-            <img
+            <Image
               src="/icons/Download.svg"
               className="buttonImg"
               alt="Download"
+              width={25}
+              height={25}
             />
           </button>
         </div>
@@ -127,7 +130,8 @@ export default function ContactMain() {
           {links.map((data, key) => {
             return (
               <a key={key} href={data.href} data-aos="flip-up" target="blank">
-                <img src={data.src} alt="Links" />
+                <Image src={data.src} alt="Links" width={30} height={30} />
+
                 <p>{data.text}</p>
               </a>
             );
@@ -174,7 +178,13 @@ export default function ContactMain() {
           disabled={isLoading}
         >
           {btnText}{" "}
-          <img src="/icons/Message.svg" className="buttonImg" alt="Message" />
+          <Image
+            src="/icons/Message.svg"
+            className="buttonImg"
+            alt="Message"
+            width={25}
+            height={25}
+          />
         </button>
       </form>
     </div>

@@ -35,10 +35,12 @@ export default function Projects() {
               className="button buttonPrimary"
             >
               Live Preview
-              <img
+              <Image
                 src="/icons/ArrowTopRight.svg"
                 className="buttonImg"
                 alt="Arrow"
+                width={25}
+                height={25}
               />
             </a>
           </div>

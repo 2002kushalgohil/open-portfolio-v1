@@ -1,3 +1,4 @@
+import Image from "next/image";
 import skills from "../../../Data/skills";
 import Layout from "../../layouts/Layout";
 
@@ -19,7 +20,12 @@ export default function Skills() {
           {skills.map((data, index) => {
             return (
               <div key={index} className="skillsCard" data-aos="slide-up">
-                <img src={data.imgSrc} alt="skills"/>
+                <Image
+                  src={data.imgSrc}
+                  alt="skills"
+                  width={140}
+                  height={140}
+                />
                 <h2>{data.name}</h2>
               </div>
             );

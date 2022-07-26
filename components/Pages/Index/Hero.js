@@ -24,10 +24,12 @@ export default function Hero({ setIsModalVisible }) {
               }}
             >
               Let&apos;s Talk{" "}
-              <img
+              <Image
                 src="/icons/Message.svg"
                 className="buttonImg"
                 alt="Message"
+                width={25}
+                height={25}
               />
             </button>
           </div>

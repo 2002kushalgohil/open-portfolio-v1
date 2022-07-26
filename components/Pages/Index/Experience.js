@@ -35,10 +35,12 @@ export default function Experience() {
                         setIsModalVisible(true);
                       }}
                     >
-                      <img
+                      <Image
                         src="/icons/ArrowTopRight.svg"
                         className="buttonImg"
                         alt="Arrow"
+                        width={25}
+                        height={25}
                       />
                     </button>
                   </div>
