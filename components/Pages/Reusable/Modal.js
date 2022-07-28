@@ -11,10 +11,7 @@ export default function Modal({ children, isModalVisible, setIsModalVisible }) {
 
   return (
     <div
-      className="modalBg"
-      style={{
-        display: !isModalVisible ? "none" : "flex",
-      }}
+      className={`modalBg ${isModalVisible ? "modalTransition" : ""}`}
       onClick={() => {
         setIsModalVisible(false);
       }}
