@@ -5,11 +5,11 @@ export default [
     company: "Bridged Media",
     logo: "/Experience/Bridged Media/logo.png",
     tasksAndAchievements: [
-      "Built a landing using Next JS , and Tailwind CSS which has an average of 17,000 visitors per month .",
-      "Built an end-to-end portal that lets publishers create engagement and actions for any platform which can increase retention by 40% .",
+      "Built a landing page using NextJS , and Tailwind CSS which has an average of 17,000 visitors per month .",
+      "Built an end-to-end portal in MERN stack that lets publishers create engagement and actions for any platform which can increase retention by 40% .",
       "Built reusable UI components using ReactJS , Ant Design , and CSS3 which decreased further development time by 45% .",
-      "Built connection between Flutter web and ReactJS that reduced data sharing time from 1s to 1ms.",
-      "Migrated endpoints and frontend for an internal portal from PHP to Nest JS and Angular respectively which saved 25% of the time for the Team. ",
+      "Built connection between Flutter web and ReactJS that reduced data sharing time from 1s to 1ms .",
+      "Migrated endpoints and frontend for an internal portal from PHP to NestJS and Angular respectively which saved 25% of the time for the Team.",
     ],
   },
   {
@@ -18,7 +18,7 @@ export default [
     company: "Conscience Journal",
     logo: "/Experience/Conscience Journal/logo.jpg",
     tasksAndAchievements: [
-      "Built a Landing page for Conscience Journal using HTML , CSS3 , and JavaScript .",
+      "Built a Landing page for Conscience Journal using HTML , CSS , and JavaScript .",
       "Build a Newsletter API Back-end using NodeJS , ExpressJS , and MongoDB used by an average of 5000 visitors.",
     ],
   },
@@ -49,9 +49,9 @@ export default [
     company: "Indian Tech",
     logo: "/Experience/Indian Tech/logo.webp",
     tasksAndAchievements: [
-      "Built a Browser app for the Android platform which generated revenue of 123.56 USD .",
+      "Built a Browser app for the Android platform which generated revenue of 123.56 USD in the first month.",
       "Built a website using HTML , CSS , and JavaScript showing live scores of the ongoing cricket match.",
-      "Built Landing pages for local businesses using HTML , and CSS with an average retention of 68%.",
+      "Built Landing pages for local businesses using HTML , and CSS with an average retention of 50%.",
     ],
   },
 ];
