@@ -1,13 +1,13 @@
 import { useEffect } from "react";
 
 export default function Modal({ children, isModalVisible, setIsModalVisible }) {
-  useEffect(() => {
-    if (isModalVisible) {
-      document.body.style.overflow = "hidden";
-    } else {
-      document.body.style.overflow = "";
-    }
-  }, [isModalVisible]);
+  // useEffect(() => {
+  //   if (isModalVisible) {
+  //     document.body.style.overflow = "hidden";
+  //   } else {
+  //     document.body.style.overflow = "";
+  //   }
+  // }, [isModalVisible]);
 
   return (
     <div
