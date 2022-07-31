@@ -277,28 +277,6 @@ nav {
   padding: 0px 150px;
 }
 
-/* ------------------- Dark mode ------------------- */
-
-.darkMode .mainDiv,
-.darkMode .contactIconsMainDiv p {
-  background-color: #011627;
-  color: #fdfffc !important;
-}
-
-.darkMode section,
-.darkMode .borderTop {
-  border-top: 1px solid #fdfffc3e;
-}
-
-.darkMode nav {
-  background-color: rgba(255, 255, 255, 0.21);
-  color: white !important;
-}
-
-.darkMode nav h2 {
-  color: white !important;
-}
-
 /* ------------------- Home ---------------- */
 
 .home {

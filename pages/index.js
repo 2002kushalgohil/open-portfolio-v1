@@ -10,7 +10,6 @@ import ContactMain from "../components/Pages/Reusable/ContactMain";
 import Modal from "../components/Pages/Reusable/Modal";
 import Aos from "aos";
 import "aos/dist/aos.css";
-import NavBar from "../components/Pages/Reusable/NavBar";
 
 export default function Home() {
   useEffect(() => {
@@ -20,9 +19,8 @@ export default function Home() {
     });
   }, []);
   const [isModalVisible, setIsModalVisible] = useState(false);
-  const [mode, setMode] = useState("");
   return (
-    <div className={mode}>
+    <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
@@ -64,7 +62,7 @@ export default function Home() {
         />
         <link rel="manifest" href="/favicon/site.webmanifest"></link>
       </Head>
-      <NavBar mode={mode} setMode={setMode} />
+
       <Modal
         isModalVisible={isModalVisible}
         setIsModalVisible={setIsModalVisible}
@@ -83,6 +81,6 @@ export default function Home() {
       <div className="oddSectionColor">
         <Contact />
       </div>
-    </div>
+    </>
   );
 }
