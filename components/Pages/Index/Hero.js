@@ -38,7 +38,7 @@ export default function Hero({ setIsModalVisible }) {
           <Image
             src="/heroImg.webp"
             data-aos="slide-down"
-            height={800}
+            height={600}
             width={800}
             className="heroImg"
             alt="Hero"
