@@ -190,11 +190,11 @@ button span {
 /* ------------------- Modal -------------- */
 
 .modalBg {
-  background-color: #4c40f710;
+  background-color: rgba(0, 0, 0, 0.176);
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   position: fixed;
-  right: -100%;
+  right: 0;
   top: 0;
   z-index: 50;
   width: 100%;
@@ -203,10 +203,6 @@ button span {
   align-items: center;
   justify-content: center;
   padding: var(--mp-main);
-}
-
-.modalTransition {
-  right: 0;
 }
 
 .modal {

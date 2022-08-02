@@ -126,7 +126,7 @@ export default function ContactMain() {
             />
           </button>
         </div>
-        <ul className="contactIconsMainDiv">
+        <div className="contactIconsMainDiv">
           {links.map((data, key) => {
             return (
               <a key={key} href={data.href} data-aos="flip-up" target="blank">
@@ -136,7 +136,7 @@ export default function ContactMain() {
               </a>
             );
           })}
-        </ul>
+        </div>
       </div>
       <form
         className="contactMainSub2"
