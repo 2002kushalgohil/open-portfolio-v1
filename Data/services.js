@@ -9,6 +9,6 @@ export default [
   },
   {
     name: "Web UI/UX Design",
-    proficiency: "intermediary",
+    proficiency: "Advanced",
   },
 ];
