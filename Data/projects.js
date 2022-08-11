@@ -32,7 +32,7 @@ export default [
 
   // ------------------- Web Design -------------------
   {
-    name: "Ghughrawala's Landing Page",
+    name: "Ghughrawala's Landing Page & Menu",
     imgSrc: "/Projects/Website Design/Ghughrawa wala.webp",
     category: webDesign,
     stack: ["Figma"],
