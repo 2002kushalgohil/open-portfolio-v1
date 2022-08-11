@@ -81,10 +81,6 @@ button span {
   border: 1px solid transparent;
 }
 
-.buttonSecondary {
-  background-color: #fff;
-  border: 1px solid var(--border-color);
-}
 
 .buttonRoundPrimary {
   padding: 15px;
@@ -115,15 +111,6 @@ button span {
   background-color: var(--secondary-color);
 }
 
-.buttonSecondary:hover,
-.buttonRoundSecondary:hover {
-  border: 1px solid var(--secondary-color-hover);
-}
-
-.buttonSecondary:active,
-.buttonRoundSecondary:active {
-  border: 1px solid var(--secondary-color);
-}
 
 .boxShadow {
   -webkit-box-shadow: 0px 0px 36px -18px rgba(0, 0, 0, 0.75);
@@ -243,35 +230,6 @@ button span {
   display: none;
 }
 
-/* ------------------- navbar -------------- */
-
-nav {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 70px;
-  z-index: 40;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: var(--mp-secondary) 150px;
-  backdrop-filter: blur(5px);
-  -webkit-backdrop-filter: blur(5px);
-  background: rgba(0, 0, 0, 0.071);
-}
-
-.navBarModeImg {
-  height: 100%;
-  max-height: 40px;
-  padding: 2px;
-  border-radius: 50%;
-  cursor: pointer;
-}
-
-.navBarModeImg:active,
-.navBarModeImg:hover {
-  background-color: rgba(255, 255, 255, 0.388);
-}
 
 /* ------------------- Main Section -------------- */
 .mainDiv {
@@ -760,8 +718,7 @@ nav {
     font-size: 14px;
   }
 
-  .mainDivChild,
-  nav {
+  .mainDivChild {
     padding: 0px 100px;
   }
 }
@@ -771,8 +728,7 @@ nav {
     font-size: 13px;
   }
 
-  .mainDivChild,
-  nav {
+  .mainDivChild {
     padding: 0px 60px;
   }
 }
@@ -782,8 +738,7 @@ nav {
     font-size: 12px;
   }
 
-  .mainDivChild,
-  nav {
+  .mainDivChild {
     padding: 0px 30px;
   }
 
@@ -904,8 +859,7 @@ nav {
     border-radius: var(--mp-third);
   }
 
-  .mainDivChild,
-  nav {
+  .mainDivChild {
     padding: 0px 15px;
   }
 }
