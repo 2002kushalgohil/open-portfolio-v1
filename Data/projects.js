@@ -2,7 +2,7 @@ export const fullStack = "Full Stack";
 export const uiDevelopment = "UI Development";
 export const webDesign = "Web Design";
 
-export const category = [fullStack, uiDevelopment, , webDesign];
+export const category = [fullStack, uiDevelopment, webDesign];
 
 export default [
   // ------------------- Full Stack -------------------
@@ -10,24 +10,31 @@ export default [
     name: "Google Keep Clone",
     imgSrc: "/Projects/Full Stack/google keep.webp",
     category: fullStack,
-    stack: ["ReactJS", "NodeJS", "ExpressJS", "MongoDB"],
+    stack: ["ReactJS, ", "NodeJS, ", "ExpressJS, ", "MongoDB."],
     liveLink: "https://google-keep--clone.herokuapp.com",
   },
 
   // ------------------- UI Development -------------------
   {
-    name: "Headphone Website",
-    imgSrc: "/Projects/Website UI Development/Headphone Website.webp",
+    name: "Food website",
+    imgSrc: "/Projects/Website UI Development/Ghughrawala.webp",
     category: uiDevelopment,
-    stack: ["NextJS", "TailwindCSS"],
-    liveLink: "https://beats.kushalgohil.com",
+    stack: ["NextJS, ", "TailwindCSS."],
+    liveLink: "https://ghughrawala.netlify.app/",
   },
   {
     name: "Bridged Media Landing Page",
     imgSrc: "/Projects/Website UI Development/Bridged Media.webp",
     category: uiDevelopment,
-    stack: ["NextJS", "TailwindCSS"],
+    stack: ["NextJS, ", "TailwindCSS."],
     liveLink: "https://bridged.media",
+  },
+  {
+    name: "Headphone Website",
+    imgSrc: "/Projects/Website UI Development/Headphone Website.webp",
+    category: uiDevelopment,
+    stack: ["NextJS, ", "TailwindCSS."],
+    liveLink: "https://beats.kushalgohil.com",
   },
 
   // ------------------- Web Design -------------------

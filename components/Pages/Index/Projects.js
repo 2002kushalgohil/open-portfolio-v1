@@ -26,7 +26,7 @@ export default function Projects() {
             <h2>{data.name}</h2>
             <h2>
               {data.stack.map((data) => {
-                return data + ", ";
+                return data;
               })}
             </h2>
             <a
