@@ -2,6 +2,7 @@ import emailjs from "@emailjs/browser";
 import { init } from "@emailjs/browser";
 import Image from "next/image";
 import { useState } from "react";
+import links from "../../../Data/links";
 
 init("user_95agqqx0TacSl819iLfB8");
 export default function ContactMain() {
@@ -75,28 +76,6 @@ export default function ContactMain() {
       );
   };
 
-  const links = [
-    {
-      href: "mailto:2002kushalgohil@gmail.com",
-      src: "/icons/Email.svg",
-      text: "2002kushalgohil@gmail.com",
-    },
-    {
-      href: "tel:+917040099240",
-      src: "/icons/Phone.svg",
-      text: "+91 7040099240",
-    },
-    {
-      href: "https://www.linkedin.com/in/2002kushalgohil/",
-      src: "/icons/LinkedIn.svg",
-      text: "2002kushalgohil",
-    },
-    {
-      href: "https://github.com/2002kushalgohil",
-      src: "/icons/GitHub.svg",
-      text: "2002kushalgohil",
-    },
-  ];
   return (
     <div className="contactMain">
       <div className="contactMainSub1">
