@@ -69,7 +69,7 @@ export default function Home() {
         src="https://www.googletagmanager.com/gtag/js?id=G-K8CZ77F3MJ"
       />
 
-      <Script strategy="lazyOnload">
+      <Script strategy="lazyOnload" id="my-script">
         {`window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
