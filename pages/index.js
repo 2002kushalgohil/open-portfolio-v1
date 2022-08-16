@@ -1,4 +1,5 @@
 import Head from "next/head";
+import Script from "next/script";
 import { useEffect, useState } from "react";
 import Contact from "../components/Pages/Index/Contact";
 import Experience from "../components/Pages/Index/Experience";
@@ -62,6 +63,19 @@ export default function Home() {
         />
         <link rel="manifest" href="/favicon/site.webmanifest"></link>
       </Head>
+
+      <Script
+        strategy="lazyOnload"
+        src="https://www.googletagmanager.com/gtag/js?id=G-K8CZ77F3MJ"
+      />
+
+      <Script strategy="lazyOnload">
+        {`window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-K8CZ77F3MJ');`}
+      </Script>
 
       <Modal
         isModalVisible={isModalVisible}
