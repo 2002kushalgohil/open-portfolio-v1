@@ -1,7 +1,7 @@
 export default [
   {
     date: "11/2021 - Present",
-    position: "Full-Stack Developer intern",
+    position: "Full-Stack Developer",
     company: "Bridged Media",
     logo: "/Experience/Bridged Media/logo.png",
     tasksAndAchievements: [
@@ -14,7 +14,7 @@ export default [
   },
   {
     date: "08/2021 - 10/2021",
-    position: "Full-Stack Developer intern",
+    position: "Full-Stack Developer",
     company: "Conscience Journal",
     logo: "/Experience/Conscience Journal/logo.jpg",
     tasksAndAchievements: [
