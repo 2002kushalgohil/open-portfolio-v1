@@ -18,10 +18,10 @@ export default function Services() {
             </p>
           </div>
           <Image
-            src="/service.png"
+            src="/services.svg"
             data-aos="fade-up"
-            height={550}
-            width={500}
+            height={600}
+            width={600}
             alt="Services"
           />
         </div>

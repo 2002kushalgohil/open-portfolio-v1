@@ -81,7 +81,6 @@ button span {
   border: 1px solid transparent;
 }
 
-
 .buttonRoundPrimary {
   padding: 15px;
   border: 1px solid transparent;
@@ -110,7 +109,6 @@ button span {
 .buttonRoundPrimary:active {
   background-color: var(--secondary-color);
 }
-
 
 .boxShadow {
   -webkit-box-shadow: 0px 0px 36px -18px rgba(0, 0, 0, 0.75);
@@ -229,7 +227,6 @@ button span {
 .modalBody::-webkit-scrollbar {
   display: none;
 }
-
 
 /* ------------------- Main Section -------------- */
 .mainDiv {
@@ -744,6 +741,16 @@ button span {
 
   .home {
     flex-direction: column-reverse;
+    justify-content: space-around;
+  }
+
+  .homeSubDiv1MainSection,
+  .servicesSub1Main,
+  .experienceSub2Main,
+  .experienceSub2 img,
+  .projectSub1Main {
+    max-width: 100%;
+    width: 100%;
   }
 
   .homeSubDiv1,

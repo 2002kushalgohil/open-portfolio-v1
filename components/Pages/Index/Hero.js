@@ -36,9 +36,9 @@ export default function Hero({ setIsModalVisible }) {
         </div>
         <div className="homeSubDiv2">
           <Image
-            src="/heroImg.webp"
+            src="/hero.svg"
             data-aos="slide-down"
-            height={600}
+            height={800}
             width={800}
             className="heroImg"
             alt="Hero"
