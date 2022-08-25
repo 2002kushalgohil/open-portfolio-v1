@@ -154,6 +154,54 @@ button span {
   background: var(--secondary-color);
 }
 
+.etcImg {
+  position: absolute;
+  width: 100px;
+  opacity: 0.8;
+}
+
+.etcImg1 {
+  top: 20%;
+  right: 30%;
+  rotate: -20deg;
+  animation: wobble 5s ease-in-out 0s infinite normal forwards;
+}
+
+.etcImg2 {
+  bottom: 20%;
+  right: 0%;
+  rotate: -20deg;
+  animation: wobble 10s ease-in-out 0s infinite normal forwards;
+}
+
+@keyframes wobble {
+	0%,
+	100% {
+		transform: translateX(0%);
+		transform-origin: 50% 50%;
+	}
+
+	15% {
+		transform: translateX(-30px) rotate(-6deg);
+	}
+
+	30% {
+		transform: translateX(15px) rotate(6deg);
+	}
+
+	45% {
+		transform: translateX(-15px) rotate(-3.6deg);
+	}
+
+	60% {
+		transform: translateX(9px) rotate(2.4deg);
+	}
+
+	75% {
+		transform: translateX(-6px) rotate(-1.2deg);
+	}
+}
+
 /* ------------------- Scrollbar -------------- */
 ::-webkit-scrollbar {
   width: var(--mp-third);
@@ -739,6 +787,20 @@ button span {
     padding: 0px 30px;
   }
 
+  .etcImg{
+    width: 50px;
+  }
+
+  .etcImg1 {
+    top: 5%;
+    left: 10%;
+  }
+
+  .etcImg2 {
+    top: 45%;
+    right: 5%;
+  }
+  
   .home {
     flex-direction: column-reverse;
     justify-content: space-around;

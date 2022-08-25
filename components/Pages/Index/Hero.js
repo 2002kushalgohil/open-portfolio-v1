@@ -3,7 +3,13 @@ import Image from "next/image";
 export default function Hero({ setIsModalVisible }) {
   return (
     <Layout>
-      <div className="home" id="home">
+      <div
+        className="home"
+        id="home"
+        style={{
+          position: "relative",
+        }}
+      >
         <div className="homeSubDiv1">
           <div className="homeSubDiv1MainSection">
             <div className="subHeading" data-aos="flip-down">
@@ -34,7 +40,12 @@ export default function Hero({ setIsModalVisible }) {
             </button>
           </div>
         </div>
-        <div className="homeSubDiv2">
+        <div
+          className="homeSubDiv2"
+          style={{
+            position: "relative",
+          }}
+        >
           <Image
             src="/hero.svg"
             data-aos="slide-down"
@@ -44,6 +55,8 @@ export default function Hero({ setIsModalVisible }) {
             alt="Hero"
           />
         </div>
+        <img src="/Etc/head.png" className="etcImg etcImg1" />
+        <img src="/Etc/object.png" className="etcImg etcImg2" />
       </div>
     </Layout>
   );
