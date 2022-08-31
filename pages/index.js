@@ -62,6 +62,34 @@ export default function Home() {
           href="/favicon/favicon-16x16.png"
         />
         <link rel="manifest" href="/favicon/site.webmanifest"></link>
+
+        <meta
+          property="og:title"
+          content="Kushal Gohil - Full Stack Developer"
+        />
+        <meta property="og:type" content="Portfolio" />
+        <meta
+          property="og:image"
+          content="/favicon/android-chrome-512x512.png"
+        />
+        <meta property="og:url" content="https://www.kushalgohil.com" />
+        <meta
+          name="twitter:card"
+          content="Skilled in designing, developing, and deploying software containing logical solutions to business problems."
+        />
+
+        <meta
+          property="og:description"
+          content="Skilled in designing, developing, and deploying software containing logical solutions to business problems."
+        />
+        <meta
+          property="og:site_name"
+          content="Kushal Gohil - Full Stack Developer"
+        />
+        <meta
+          name="twitter:image:alt"
+          content="/favicon/android-chrome-512x512.png"
+        />
       </Head>
 
       <Script
