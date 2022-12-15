@@ -92,13 +92,6 @@ button span {
   margin: 0px !important;
 }
 
-.buttonRoundSecondary {
-  padding: 15px;
-  border: 1px solid var(--border-color);
-  border-radius: 50% !important;
-  background-color: var(--round-btn-color);
-}
-
 .buttonPrimary:hover,
 .buttonRoundPrimary:hover {
   background-color: var(--secondary-color-hover);
@@ -283,8 +276,10 @@ button span {
   justify-content: center;
 }
 
-.oddSectionColor {
+.oddSection {
   background-color: var(--primary-color);
+  border-radius: var(--mp-secondary);
+  margin: 10px;
 }
 
 .mainDivChild {

@@ -112,15 +112,15 @@ export default function Home() {
         <ContactMain />
       </Modal>
       <Hero setIsModalVisible={setIsModalVisible} />
-      <div className="oddSectionColor">
+      <div className="oddSection">
         <Services />
       </div>
       <Experience />
-      <div className="oddSectionColor">
+      <div className="oddSection">
         <Skills />
       </div>
       <Projects />
-      <div className="oddSectionColor">
+      <div className="oddSection">
         <Contact />
       </div>
     </>
