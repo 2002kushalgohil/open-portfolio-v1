@@ -12,9 +12,11 @@ export default function Services() {
             </div>
             <h1>Services I Offer</h1>
             <p>
-              I help an ambitious business like yours generate more profits by
-              building awareness, driving web traffic, connecting with
-              customers, and growing overall sales.
+              Offering full stack web development services with expertise in
+              building dynamic, high-performance websites and applications.
+              Additionally, offering music production services with
+              industrial-standard tracks of various genres. Bringing passion,
+              creativity, and technical expertise to each project.
             </p>
           </div>
           <Image

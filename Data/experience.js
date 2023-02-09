@@ -5,11 +5,11 @@ export default [
     company: "Bridged Media",
     logo: "/Experience/Bridged Media/logo.png",
     tasksAndAchievements: [
-      "Built a landing page using NextJS, and Tailwind CSS which has an average of 17,000 visitors per month.",
-      "Built an end-to-end portal in the MERN stack that lets publishers create engagement and actions for any platform which can increase revenue by 150%.",
-      "Built reusable UI components using ReactJS, Ant Design, and CSS3 which decreased further development time by 50%.",
-      "Built a connection between Flutter web and ReactJS that reduced data sharing time from 1s to 1ms.",
-      "Migrated endpoints and frontend for an internal portal from PHP to NestJS and Angular respectively which saved 30% of the time for the Team.",
+      "Developed a highly responsive and visually appealing landing page using NextJS and Tailwind CSS, attracting 17,000 visitors per month on average.",
+      "Implemented an end-to-end portal in the MERN (MongoDB, ExpressJS, ReactJS, NodeJS) stack, resulting in a 150% increase in revenue for publishers.",
+      "Designed and developed reusable UI components using ReactJS, Ant Design, and CSS3, reducing further development time by 50%.",
+      "Established seamless data sharing between Flutter web and ReactJS, reducing the time from 1 second to 1 millisecond.",
+      "Migrated the endpoints and front end for an internal portal from PHP to NestJS and Angular, saving the team 30% of their time.",
     ],
   },
   {
@@ -18,8 +18,8 @@ export default [
     company: "Conscience Journal",
     logo: "/Experience/Conscience Journal/logo.jpg",
     tasksAndAchievements: [
-      "Built a Landing page for Conscience Journal using HTML, CSS , and JavaScript.",
-      "Build a Newsletter API Back-end using NodeJS, ExpressJS, and MongoDB used by an average of 5000 visitors.",
+      "Designed and built a visually appealing landing page using HTML, CSS, and JavaScript.",
+      "Developed a reliable Newsletter API backend using NodeJS, ExpressJS, and MongoDB, serving 5000 visitors on average.",
     ],
   },
   {
@@ -28,8 +28,8 @@ export default [
     company: "KisanKonnect",
     logo: "/Experience/KisanKonnect/logo.jpg",
     tasksAndAchievements: [
-      "Contributed to the sales team which increased sales by 30% .",
-      "Managed social media leads with an average retention of 25-35%.",
+      "Contributed to the sales team's success, resulting in a 30% increase in sales.",
+      "Managed social media leads with an average retention of 25%.",
     ],
   },
   {
@@ -38,9 +38,9 @@ export default [
     company: "Career Break",
     logo: "/Experience/Career Break 2019/logo.png",
     tasksAndAchievements: [
-      "Spent 3 months in Gujarat and Rajasthan to travel and explore new places.",
-      "Started music production, Beatboxing and released tracks on Spotify, iTunes, etc.",
-      "Explored drones and different tech and eventually made one drone for military operations which was selected in the Avishkar competition.",
+      "Spent 3 months traveling and exploring new places in Gujarat and Rajasthan",
+      "Pursued music production and beatboxing, releasing tracks on various platforms such as Spotify and iTunes.",
+      "Developed an interest in drones and technology, eventually building a drone for military operations which was selected in the Avishkar competition.",
     ],
   },
   {
@@ -49,9 +49,9 @@ export default [
     company: "Indian Tech",
     logo: "/Experience/Indian Tech/logo.webp",
     tasksAndAchievements: [
-      "Built a Browser app for the Android platform which generated revenue of 123.56 USD in the first month.",
-      "Built a website using HTML, CSS, and JavaScript showing live scores of the ongoing cricket match.",
-      "Built Landing pages for local businesses using HTML, and CSS with an average retention of 50%.",
+      "Created a browser app for the Android platform, generating 123.56 USD in revenue in the first month.",
+      "Developed a dynamic website for live cricket scores using HTML, CSS, and JavaScript.",
+      "Designed and built landing pages for local businesses using HTML and CSS, with an average retention rate of 50%.",
     ],
   },
 ];

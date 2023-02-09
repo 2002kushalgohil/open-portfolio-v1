@@ -19,8 +19,8 @@ export default function Hero({ setIsModalVisible }) {
               Hello, my name&apos;s Kushal. I&apos;m a Full Stack Developer.
             </h1>
             <p data-aos="flip-down">
-              A Full-Stack developer with Innovative ideas a team player and
-              passionate about coding.
+              A highly motivated and results-driven Full Stack Developer with 3+
+              years of experience in building and maintaining web applications.
             </p>
             <button
               data-aos="flip-up"

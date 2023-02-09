@@ -55,8 +55,9 @@ export default function Experience() {
               </div>
               <h1>Experience</h1>
               <p>
-                Skilled in designing, developing, and deploying software
-                containing logical solutions to business problems.
+                Experienced in building landing pages, internal portals, UI
+                components, and APIs. Proven track record of increasing revenue,
+                improving efficiency, and saving time for the team.
               </p>
             </div>
             <Image
