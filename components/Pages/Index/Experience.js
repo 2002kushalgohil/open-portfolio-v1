@@ -61,7 +61,7 @@ export default function Experience() {
               </p>
             </div>
             <Image
-              src="/myImg.webp"
+              src="/myImg.png"
               data-aos="fade-up"
               height={500}
               width={500}
