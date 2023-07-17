@@ -259,13 +259,9 @@ button span {
 }
 
 .modalBody {
-  overflow: scroll;
+  overflow-y: scroll;
   margin-top: var(--mp-secondary);
   height: 90%;
-}
-
-.modalBody::-webkit-scrollbar {
-  display: none;
 }
 
 /* ------------------- Main Section -------------- */
