@@ -40,7 +40,7 @@ export default [
     company: "KisanKonnect",
     logo: "/Experience/KisanKonnect/logo.jpg",
     tasksAndAchievements: [
-      " Played a key role in driving the sales team's performance, leading to a notable 30% increase in sales.",
+      " Played a key role in driving the sales teams performance, leading to a notable 30% increase in sales.",
       "Effectively managed social media leads, maintaining an impressive average retention rate of 25%.",
     ],
   },

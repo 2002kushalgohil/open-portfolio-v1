@@ -20,8 +20,8 @@ export default function Hero({ setIsModalVisible }) {
             </h1>
             <p data-aos="flip-down">
               Experienced in building robust web applications, creating
-              immersive games, and implementing innovative IoT solutions. Let's
-              collaborate to deliver exceptional web experiences!
+              immersive games, and implementing innovative IoT solutions.
+              Let&apos;s collaborate to deliver exceptional web experiences!
             </p>
             <button
               data-aos="flip-up"
