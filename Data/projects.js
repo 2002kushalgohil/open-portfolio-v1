@@ -8,7 +8,7 @@ export default [
   // ------------------- Full Stack -------------------
   {
     name: "E-commerce Website ",
-    imgSrc: "/Projects/Full Stack/richee agrotech.png",
+    imgSrc: "/Projects/Full Stack/richee agrotech.webp",
     category: fullStack,
     stack: ["HTML, ", "CSS, ", "JavaScript, ", "Shopify."],
     liveLink: "https://richeeagrotech.com/",
@@ -52,6 +52,22 @@ export default [
   },
 
   // ------------------- Web Design -------------------
+  {
+    name: "Caves Studio Landing Page",
+    imgSrc: "/Projects/Website Design/Caves Studio.webp",
+    category: webDesign,
+    stack: ["Figma"],
+    liveLink:
+      "https://www.figma.com/file/cVKfqWkckXUJgHv3vxR1tR/Caves-Studio-Nashik?type=design&node-id=0%3A1&mode=design&t=7m7D8Hn5fw9pFuuh-1",
+  },
+  {
+    name: "Siddhidatri Aahar Landing Page",
+    imgSrc: "/Projects/Website Design/Siddhidatri Aahar.webp  ",
+    category: webDesign,
+    stack: ["Figma"],
+    liveLink:
+      "https://www.figma.com/file/TdeoGExFWhxg5fTmEFmuR9/Untitled?node-id=0%3A1",
+  },
   {
     name: "Ghughrawala's Landing Page & Menu",
     imgSrc: "/Projects/Website Design/Ghughrawa wala.webp",
