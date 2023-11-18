@@ -7,14 +7,28 @@ export const category = [fullStack, uiDevelopment, webDesign];
 export default [
   // ------------------- Full Stack -------------------
   {
-    name: "Google Keep Clone",
-    imgSrc: "/Projects/Full Stack/google keep.webp",
+    name: "E-commerce Website ",
+    imgSrc: "/Projects/Full Stack/richee agrotech.png",
     category: fullStack,
-    stack: ["ReactJS, ", "NodeJS, ", "ExpressJS, ", "MongoDB."],
-    liveLink: "https://google-keep--clone.herokuapp.com",
+    stack: ["HTML, ", "CSS, ", "JavaScript, ", "Shopify."],
+    liveLink: "https://richeeagrotech.com/",
   },
 
   // ------------------- UI Development -------------------
+  {
+    name: "Caves Studio",
+    imgSrc: "/Projects/Website UI Development/Caves Studio.webp",
+    category: uiDevelopment,
+    stack: ["NextJS, ", "Antd Design, ", "Google Sheet."],
+    liveLink: "https://cavesstudio.vercel.app/",
+  },
+  {
+    name: "Siddhidatri Aahar Landing Page",
+    imgSrc: "/Projects/Website UI Development/Siddhidatri Aahar.webp",
+    category: uiDevelopment,
+    stack: ["NextJS, ", "TailwindCSS."],
+    liveLink: "https://siddhidatriaahar.com/",
+  },
   {
     name: "Food website",
     imgSrc: "/Projects/Website UI Development/Ghughrawala.webp",

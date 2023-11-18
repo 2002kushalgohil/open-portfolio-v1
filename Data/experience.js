@@ -35,6 +35,17 @@ export default [
     ],
   },
   {
+    date: "07/2023 - 08/2023",
+    position: "Mentor",
+    company: "Xgen Fuels",
+    logo: "/Experience/Xgen Fuels/logo.jpeg",
+    tasksAndAchievements: [
+      "Conducted training sessions on Figma, Git & GitHub, Trello, NextJS, TailwindCSS, and CI/CD, empowering the team to work efficiently.",
+      "Headed the Technical team, providing guidance on website development and overall technology strategy, resulting in increased productivity, client satisfaction, and repeat business.",
+      "Implemented agile methodologies, fostered collaboration, and promoted code reviews, resulting in a 25% reduction in bugs and technical debt, enhancing website stability, performance, and user experience.",
+    ],
+  },
+  {
     date: "07/2020 - 01/2021",
     position: "Customer Care Executive",
     company: "KisanKonnect",
