@@ -11,13 +11,6 @@ export default function Services() {
               <h2>मेरी सेवाएं</h2>
             </div>
             <h1>Services I Offer</h1>
-            <p>
-              Offering full stack web development services with expertise in
-              building dynamic, high-performance websites and applications.
-              Additionally, offering music production services with
-              industrial-standard tracks of various genres. Bringing passion,
-              creativity, and technical expertise to each project.
-            </p>
           </div>
           <Image
             src="/services.svg"

@@ -40,6 +40,10 @@ export default [
     name: "Redux",
   },
   {
+    imgSrc: "/skills/Wordpress.svg",
+    name: "WordPress",
+  },
+  {
     imgSrc: "/skills/11 Node JS.svg",
     name: "Node JS",
   },

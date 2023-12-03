@@ -16,12 +16,11 @@ export default function Hero({ setIsModalVisible }) {
               <h2>मेरा परिचय</h2>
             </div>
             <h1 data-aos="flip-up">
-              Hello, my name&apos;s Kushal. I&apos;m a Full Stack Developer.
+              Hello,<br/> my name&apos;s Kushal.
             </h1>
             <p data-aos="flip-down">
-              Experienced in building robust web applications, creating
-              immersive games, and implementing innovative IoT solutions.
-              Let&apos;s collaborate to deliver exceptional web experiences!
+              Experienced in building robust web applications,Website UI's and
+              Web Designes
             </p>
             <button
               data-aos="flip-up"
