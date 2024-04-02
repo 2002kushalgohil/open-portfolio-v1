@@ -1,27 +1,16 @@
 export default [
   {
-    date: "01/2023 - Present",
-    position: "Full-Stack Developer",
+    date: "11/2021 - Present",
+    position: "Software Engineer II",
     company: "Bridged Media",
     logo: "/Experience/Bridged Media/logo.png",
     tasksAndAchievements: [
-      "Spearheaded the development of the first version of the portal, leveraging best practices and incorporating cutting-edge UI designs for a futuristic user experience.",
-      "Led frontend development for V2 of the previous portal, introducing advanced features such as Journeys, Segments, and CTAs, while maintaining high code quality and adhering to industry standards.",
-      "Implemented dynamic analytics using Ant Design Charts, optimizing performance through innovative data processing techniques and responsive user interfaces.",
-      "Elevated analytics capabilities by seamlessly exporting data to PDF and Excel formats, utilizing futuristic UI designs to convert tables and charts for enhanced data sharing and analysis.",
-    ],
-  },
-  {
-    date: "11/2021 - 12/2022",
-    position: "Full-Stack Developer Intern",
-    company: "Bridged Media",
-    logo: "/Experience/Bridged Media/logo.png",
-    tasksAndAchievements: [
-      "Developed a highly responsive and visually appealing landing page using NextJS and Tailwind CSS, attracting 17,000 visitors per month on average.",
-      "Led the frontend development and spearheaded the creation of a portal from scratch using ReactJS, Ant Design, and other technologies. This initiative resulted in a remarkable 150% increase in revenue for publishers.",
-      "Developed user and admin portals tailored for publishers, ensuring efficient management and seamless interactions within the platform.",
-      "Established seamless data sharing between Flutter web and ReactJS, reducing the time from 1 second to 1 millisecond.",
-      "Migrated the endpoints and front end for an internal portal from PHP to NestJS and Angular, saving the team 30% of their time.",
+      "Successfully migrated a Flutter web project to ReactJS, reducing payload size by over 66%, from 15 MB to less than 5 MB, resulting in a decrease in loading and a 30% increase in client acquisition.",
+      "Designed and developed reusable UI components using ReactJS, Ant Design, and CSS3, reducing further development time by 50%.",
+      "Led frontend development efforts, addressing bugs, implementing user-requested improvements, and enhancing the company’s overall frontend architecture.",
+      "Led frontend development for the complete portal, introducing advanced features such as Journeys, Segments, and CTAs while maintaining high code quality.",
+      "Implemented dynamic analytics using Ant Design Charts, optimizing performance through innovative data processing techniques.",
+      "Developed a highly responsive landing page using NextJS and Tailwind CSS, attracting 17,000 visitors per month on average.",
     ],
   },
   {
@@ -77,7 +66,6 @@ export default [
       "Designed and developed an immersive endless runner game in Unity, featuring challenging obstacles, providing an engaging gaming experience for users.",
       "Developed a dynamic website for live cricket scores using HTML, CSS, and JavaScript, ensuring real-time updates and an interactive experience for cricket enthusiasts.",
       "Designed and built visually appealing landing pages for local businesses using HTML and CSS, resulting in an impressive average retention rate of 50%.",
-      "Discovered and reported a vulnerability in an Australian website by leveraging SQL injection and XSS attacks, prompting the website administrators to take immediate action.",
     ],
   },
 ];
