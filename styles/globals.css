@@ -1,11 +1,42 @@
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("/fonts/Gilroy-Bold.woff2") format("woff2"),
+    url("/fonts/Gilroy-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-Regular";
+  src: url("/fonts/Gilroy-Regular.woff2") format("woff2"),
+    url("/fonts/Gilroy-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy-RegularItalic";
+  src: url("/fonts/Gilroy-RegularItalic.woff2") format("woff2"),
+    url("/fonts/Gilroy-RegularItalic.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Gilroy-SemiBold";
+  src: url("/fonts/Gilroy-SemiBold.woff2") format("woff2"),
+    url("/fonts/Gilroy-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Syne', sans-serif;
   transition: all 0.2s ease-in-out;
   list-style-type: none;
   text-decoration: none;
+  font-family: "Recoleta-Regular", sans-serif;
   /* border: 1px solid red; */
 }
 
@@ -26,8 +57,8 @@ html {
 }
 
 h1 {
-  font-weight: 700;
-  font-size: 4rem;
+  font-weight: 500;
+  font-size: 3.6rem;
 }
 
 h2 {
