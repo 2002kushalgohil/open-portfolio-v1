@@ -1,31 +1,8 @@
-@font-face {
-  font-family: "Recoleta-Bold";
-  src: url("/fonts/Recoleta-Bold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Recoleta-Regular";
-  src: url("/fonts/Recoleta-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-}
-
-
-@font-face {
-  font-family: "Recoleta-SemiBold";
-  src: url("/fonts/Recoleta-SemiBold.woff2") format("woff2");
-  font-weight: 600;
-  font-style: normal;
-}
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Recoleta-Regular', sans-serif;
+  font-family: 'Syne', sans-serif;
   transition: all 0.2s ease-in-out;
   list-style-type: none;
   text-decoration: none;
@@ -49,19 +26,19 @@ html {
 }
 
 h1 {
-  font-weight: 600;
-  font-size: 3.6rem;
+  font-weight: 700;
+  font-size: 4rem;
 }
 
 h2 {
   font-weight: 500;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 
 p {
   font-weight: 400;
   opacity: 0.5;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .button {
@@ -933,7 +910,7 @@ button span {
 
 @media (max-width: 640px) {
   h1 {
-    font-size: 2.9rem;
+    font-size: 3rem;
   }
 
   .button {
